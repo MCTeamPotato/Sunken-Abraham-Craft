@@ -1,0 +1,960 @@
+{
+	id: "2C232E832C7A0C18"
+	order_index: 12
+	title: "军火商"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "forestcraft:dolphinium"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "water"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:pikarina"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:blooming_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "flora"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:blooming_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:sharped_leaf_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "flora"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:sharped_leaf_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:vita_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:vita_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:tide_dweller"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "water"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:mystery_scythe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:electron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "thunder"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:electrobow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "projectile"
+								element: "thunder"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:insanity"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:insane_bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "projectile"
+								element: "darkness"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:keeper_of_heaven"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "wind"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:battler"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:spore_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "stab"
+								element: "flora"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "forestcraft:leviathan"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "environment"
+								element: "water"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:keeper_of_clouds"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "wind"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:fire_fury"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "projectile"
+								element: "fire"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:sky_shooter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "projectile"
+								element: "wind"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "gunswithoutroses:diamond_shotgun"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "projectile"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "gunswithoutroses:diamond_sniper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "projectile"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "gunswithoutroses:diamond_gatling"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "projectile"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:traveller"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:aquamarine_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "environment"
+								element: "water"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:aquamarine_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:jewel_wart_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:ocean_monument_breaker"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "forestcraft:jawsaw"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:ore_eater"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"bonfires:reinforce": {
+						maxLevel: 10
+						level: 0
+					}
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

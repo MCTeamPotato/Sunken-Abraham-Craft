@@ -1,0 +1,24 @@
+{
+  "name": "咒术权杖",
+  "icon": "conjuring:conjuring_scepter",
+  "category": "conjuring:basics",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "指挥咒术中强大的装置绝非易事，因此，需要用$(item)咒术权杖$()去与它们中的大多数互动。在$(thing)烈焰棒$()上镶嵌$(thing)钻石$()这一最基本的动作显然大大提高了他们的魔法能力，使大多数神秘装置的使用变得轻而易举。"
+    },
+    {
+      "type": "conjuring:soulfire_forge_recipe",
+      "recipe": "conjuring:soulfire_forge/conjuring_scepter"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "可能有时候一个人用完了$(l:conjuring:basics/conjuration_essence)咒术精华$()。当这发生时，可以探索许多选项，但$(item)优越咒术权杖$()被证明是最可靠的长期解决方案。利用所附$(item)下界之星$()固有的神秘属性,它设法创造了所谓的$(thing)灵魂弹射物$()。这会将一个实体的灵魂压缩成一些$(l:conjuring:basics/conjuration_essence)咒术精华$()当其生命值足够低时。"
+    },
+    {
+      "type": "conjuring:soulfire_forge_recipe",
+      "recipe": "conjuring:soulfire_forge/superior_conjuring_scepter",
+      "text": "此外，权杖能够 $(thing)shift 右击$()即时完成$(l:conjuring:basics/soulfire_forge)灵魂火锻炉$()。"
+    }
+  ]
+}

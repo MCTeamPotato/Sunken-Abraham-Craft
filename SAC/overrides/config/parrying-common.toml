@@ -1,0 +1,85 @@
+
+[common]
+	#Whether or not the mace is craftable.
+	mace_enabled = false
+	#Whether or not the hammer is craftable.
+	hammer_enabled = false
+	#Whether or not the flail is craftable.
+	flail_enabled = false
+	#Whether or not the spear is craftable.
+	spear_enabled = false
+	#Whether or not the dagger is craftable.
+	dagger_enabled = false
+	#Can flaming arrows ignite blocks?
+	flaming_arrow_griefing = false
+	#Does the piercing enchant cause armor penetrating damage?
+	ap_piercing = false
+	#Can spectral arrows reveal mobs around their impact point?
+	sonic_spectral_arrows = false
+	#When enabled, potion arrows with no negative effects deal 0 damage
+	picky_potion_arrows = false
+	#Whether parrying is enabled or not.
+	parry_enabled = true
+	#The maximum angle that you can be aiming relative to the attacker. -1 represents pointing exactly away from the attacker, and 1 represents pointing exactly towards the attacker
+	#Range: -1.0 ~ 1.0
+	parry_angle = -1.0
+	#Whether dual wielding is enabled or not.
+	dual_wielding_enabled = false
+	#Whether certain weapons disable dual wielding
+	two_handed_enabled = false
+	#Whether shield bashing is enabled or not.
+	bash_enabled = true
+	#The maximum angle that you can be aiming relative to the target. -1 represents pointing exactly away from the attacker, and 1 represents pointing exactly towards the attacker
+	#Range: -1.0 ~ 1.0
+	bash_angle = 1.0
+	#The base cooldown, in ticks, for a successful shield bash. Each target adds one second to the cooldown. There are 20 ticks in a second.
+	#Range: > 0
+	bash_base_cooldown = 80
+	#The cooldown, in ticks, for missing a shield bash. There are 20 ticks in a second.
+	#Range: > 0
+	bash_miss_cooldown = 20
+	#The number of targets a shield bash can hit. Each level of Bashing adds 1 to this number
+	#Range: > 1
+	bash_targets = 3
+	#Whether backstabbing is enabled or not
+	backstab_enabled = true
+	#The maximum angle that you can be aiming relative to the target. -1 represents pointing exactly away from the target, and 1 represents pointing exactly towards the target
+	#Range: -1.0 ~ 1.0
+	backstab_angle = 0.85
+	#The amount to multiply incoming damage by with a successful backstab.
+	#Range: 1.0 ~ 99999.0
+	backstab_multiplier = 3.0
+	#Any entity with health greater than this is immune to backstab
+	#Range: 1 ~ 99999
+	backstab_max_health = 50
+	#Whether dodging is enabled or not.
+	dodge_enabled = false
+	#How much power does the dodge have?
+	#Range: 0.0 ~ 99999.0
+	dodge_power = 0.5
+	#The time in seconds before you can dodge again
+	#Range: 0.0 ~ 99999.0
+	dodge_cooldown = 1.5
+	#Whether or not the deflection enchantment is enabled
+	deflection_enabled = false
+	#Whether or not the riposte enchantment is enabled
+	riposte_enabled = false
+	#Whether or not the crippling enchantment is enabled
+	crippling_enabled = false
+	#Whether or not the bashing enchantment is enabled
+	bashing_enabled = true
+	#Whether or not the treachery enchantment is enabled
+	treachery_enabled = false
+	#Whether or not the venomous enchantment is enabled
+	venomous_enabled = false
+	#Whether or not the fragile curse is enabled
+	fragile_enabled = false
+	#Whether or not the phasing curse is enabled
+	phasing_enabled = false
+	#Whether or not the fragile curse is treasure only
+	is_fragile_treasure = false
+	#Whether or not the phasing curse is treasure only
+	is_phasing_treasure = false
+	#Easy way to disable chainmail crafting without a datapack
+	is_chainmail_craftable = false
+

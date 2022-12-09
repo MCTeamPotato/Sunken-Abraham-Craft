@@ -1,0 +1,10 @@
+{
+	"defense_style":{
+		"slash":15
+	},
+	
+	"defense_element":{
+        "fire":15,
+		"wind":5
+	}
+}

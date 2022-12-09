@@ -1,0 +1,806 @@
+{
+	id: "7E3AAC2ECEE9D4E3"
+	group: ""
+	order_index: 5
+	filename: "d"
+	title: "&a抽奖(WIP)"
+	icon: {
+		id: "minecraft:potion"
+		Count: 1b
+		tag: {
+			Potion: "minecraft:luck"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			title: "抽奖示范"
+			x: -2.5d
+			y: 4.0d
+			subtitle: "&0&l今天的爆率那叫一个高啊！"
+			description: [
+				"怎么抽奖呢？"
+				"首先，你需要获得左边的“抽奖代币”，并在任务界面中单击它来打开提交界面。"
+				"之后，点击“submit”来提交抽奖代币。"
+				"之后，你就可以领取右侧的奖励了。"
+				"奖励是完全随机的，领取完之后，任务便会重置来让你继续下一次抽奖。"
+				"现在，提交泥土，完成此任务，让抽奖机开启。"
+			]
+			dependencies: ["367DB04D2C4FE595"]
+			hide: true
+			id: "095084FE1689FD86"
+			tasks: [{
+				id: "2E6EBDCAF8F12D14"
+				type: "item"
+				item: {
+					id: "minecraft:dirt"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15672780F0806FFB"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "我是日志/原木抽奖机"
+			icon: "minecraft:oak_log"
+			x: 1.0d
+			y: 4.0d
+			subtitle: "好多的木头！"
+			hide_dependency_lines: true
+			dependencies: ["095084FE1689FD86"]
+			repeatable: true
+			id: "5F5B21F15AEC222C"
+			tasks: [{
+				id: "6122B2DA404C4C22"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "04EC1EAD65E50E08"
+				type: "random"
+				table_id: 9059192764701438370L
+			}]
+		}
+		{
+			title: "我是土豆家具城抽奖机"
+			icon: "furnish:furniture_workbench"
+			x: 1.0d
+			y: 5.5d
+			subtitle: "只要9块8，通通带回家！"
+			hide_dependency_lines: true
+			dependencies: ["095084FE1689FD86"]
+			dependency_requirement: "all_started"
+			repeatable: true
+			id: "75D77359EFC7EFB0"
+			tasks: [{
+				id: "7C3F11F732A9FCD7"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "29BA2105017A3560"
+				type: "random"
+				table_id: 5944524848656421312L
+			}]
+		}
+		{
+			title: "我是KFC全家桶抽奖机"
+			icon: "minecraft:cooked_chicken"
+			x: 2.5d
+			y: 4.0d
+			subtitle: "别想了，星期四还没到呢"
+			description: ["我依稀记得那是一个夏天。 稚童的我和小伙伴正模仿庙会上翻飞的彩狮。 从未见过的人和从未见过的机器喧嚷着碾过村里的田坎。 现代化的浪潮就这样闯入了我的生活。 当时的我没有太多感触，只是觉得路变宽了，大人们都忙了起来。 我们是乡里远近闻名的少年舞狮队，田大爷说，我们将会是以后庙会上的主角。 但是再也没有庙会了。 机器的轰鸣碾碎了村口闲聊的碎语，碾碎了田垄上劳作的农歌，扬起满天尘埃，在阳光的反射中勾勒一副似乎是幸福的画卷。 它像是一条条线，将每个人细细的拆分开。 我考上了高中，然后是大学，我离开了大山。 从前幻想着在庙会上跃动的小伙伴们也四散而去。 城市，城市。 我初次踏上那里的土地，给我的是一种来自灵魂的震荡。 它像是一只猛兽，不停的吞噬四周，大山不能阻挡它，我也不能。 一切好像都会被裹挟其中，然后成为它的一部分。 但是村子最终并没有融入其中，阻挡它的不是大山，也不是任何人，而是枯竭的矿脉。 当我回到村子的时候，记忆里繁忙的路上只剩三两只白鸭阔步而行。 正是一个星期的中点，曾是村子里最喧闹的时节，但现在寂静无声。 再没有机器的轰鸣，也没有工人劳动的号子，更没有农妇们闲聊的细语。 浪潮曾经席卷而过，退潮也几乎带走了它曾带来的一切，还带走了所有的年轻人，只留下零散的历史遗留者。 李老师，现在的李大爷帮我打开了老屋的大门。 老屋还是老屋，只是布满了灰尘。 意外的，我在长满了杂草了的杂物房中寻到了一个褪色的狮头，脆弱的它居然能在岁月的刻刀下幸存。 随手拿起它，眼前似乎又浮现当年壮志满怀的小伙伴，耳畔仿佛又响起庙会锣鼓的鼓点。 烈阳如火，依稀还是那个夏天。 “封———矿———啦———” 一声悠远的雷响不知从何而来，在山间回荡不绝，为曾路过小村的潮水刻上一个终点。 封矿星期四，唯我舞狮！"]
+			dependencies: ["095084FE1689FD86"]
+			repeatable: true
+			id: "3BD34A222BF04402"
+			tasks: [{
+				id: "03315DD6375803BE"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1439441B57849672"
+				type: "random"
+				table_id: 6825343764660444387L
+			}]
+		}
+		{
+			title: "我是材料抽奖机"
+			icon: "minecraft:diamond_block"
+			x: 4.0d
+			y: 2.5d
+			subtitle: "搏一搏，单车变摩托?"
+			description: [
+				"珍爱生命，远离赌狗心理。"
+				"需要先完成“高温锻造”任务。"
+			]
+			dependencies: [
+				"095084FE1689FD86"
+				"68DBD8FF1A874621"
+			]
+			repeatable: true
+			id: "242CB7421B73E2FA"
+			tasks: [{
+				id: "6A4672E2FD176271"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "15950D71A49C81DB"
+				type: "random"
+				table_id: 4718082676524542637L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			dependencies: ["095084FE1689FD86"]
+			hide: true
+			repeatable: true
+			id: "6E1191D2211151BA"
+			tasks: [{
+				id: "36538DA183E3CC61"
+				type: "questsadditions:time"
+				title: "莫要急，每隔半小时才能给你一个抽奖币"
+				elapsedTime: 1800L
+				gameTime: "system"
+			}]
+			rewards: [{
+				id: "65B8B411A2CF21E3"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "我是土豆餐厅抽奖机"
+			icon: "simplefarming:lasagna"
+			x: 2.5d
+			y: 2.5d
+			subtitle: "把您的肚子填满，是我们的服务宗旨"
+			description: [
+				"这里卖的都是些高饱和度的食物。"
+				"需要先完成“高温锻造”任务。"
+			]
+			dependencies: [
+				"095084FE1689FD86"
+				"68DBD8FF1A874621"
+			]
+			repeatable: true
+			id: "0946F6C3C5A9F8BD"
+			tasks: [{
+				id: "7F13C0717FE9CD54"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3419BD12FC294998"
+				type: "random"
+				table_id: 5714635652221006635L
+			}]
+		}
+		{
+			title: "我是土豆会员制餐厅抽奖机"
+			icon: "crockpot:meat_balls"
+			x: 2.5d
+			y: 5.5d
+			subtitle: "吃的完有奖励，吃不完有惩罚"
+			description: [
+				"这家店卖的都是些独特的可以给予食用者状态效果的食品。"
+				"需要先完成“高温锻造”任务。"
+			]
+			dependencies: [
+				"095084FE1689FD86"
+				"68DBD8FF1A874621"
+			]
+			repeatable: true
+			id: "33587142E13AFA43"
+			tasks: [{
+				id: "394E10A86403FF37"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "194C927AFF630767"
+				type: "random"
+				table_id: 3663412413710990652L
+			}]
+		}
+		{
+			icon: "simplefarming:birthday_cake"
+			x: -2.5d
+			y: 0.5d
+			subtitle: "生日的时候来领取生日蛋糕吧"
+			description: ["祝你生日快乐~"]
+			dependencies: ["095084FE1689FD86"]
+			hide: true
+			id: "1892A54F5878BEB6"
+			tasks: [{
+				id: "1B997C646438A033"
+				type: "checkmark"
+				title: "&6&l生日快乐"
+			}]
+			rewards: [{
+				id: "5C9E038E5DFAFB08"
+				type: "item"
+				item: {
+					id: "simplefarming:birthday_cake"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "我是神必饰品店抽奖机"
+			icon: "nameless_trinkets:gods_crown"
+			x: 4.0d
+			y: 4.0d
+			subtitle: "来看看吧，虽然这里不会有T1、T0饰品"
+			description: ["需要先完成“高温锻造”任务。"]
+			dependencies: [
+				"095084FE1689FD86"
+				"68DBD8FF1A874621"
+			]
+			id: "6823A186F755E233"
+			tasks: [{
+				id: "41C6C71217617003"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "060E2338A7E5DAB2"
+				type: "random"
+				table_id: 1344181392009886937L
+			}]
+		}
+		{
+			title: "我是魔女小屋抽奖机"
+			icon: {
+				id: "tomes:living_tome"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.0d
+			y: 5.5d
+			subtitle: "把你变成猪！"
+			description: [
+				"这里会给你一些适用于对应的3本秘典的附魔书。"
+				"需要先完成“高温锻造”任务。"
+			]
+			dependencies: [
+				"095084FE1689FD86"
+				"68DBD8FF1A874621"
+			]
+			id: "0D139F10A49B5F6A"
+			tasks: [{
+				id: "26D8B91796DA0C7E"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "099D5974C9C749C0"
+				type: "random"
+				table_id: 5832934593531557733L
+			}]
+		}
+		{
+			title: "我是阴乐店抽奖机"
+			icon: "forestcraft:bass_guitar"
+			x: 1.0d
+			y: 2.5d
+			subtitle: "do re me fa so la ti do~"
+			dependencies: ["095084FE1689FD86"]
+			id: "50E9956859ECFE7F"
+			tasks: [{
+				id: "298FB93857328F32"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6526AED78BAE77DD"
+				type: "random"
+				table_id: 6780344612207808795L
+			}]
+		}
+		{
+			title: "我是军火商抽奖机"
+			icon: {
+				id: "forestcraft:blooming_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.5d
+			y: 4.0d
+			subtitle: "您的移动武器库"
+			description: ["需要先完成“进入下界”任务。"]
+			dependencies: [
+				"095084FE1689FD86"
+				"33F2D31AAB688417"
+			]
+			repeatable: true
+			id: "100783619A1D60A7"
+			tasks: [{
+				id: "11F3E8D057D5D997"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "33C669E9C73D181E"
+				type: "random"
+				table_id: 3180436902775491608L
+			}]
+		}
+		{
+			title: "我是以史为箭的抽奖机"
+			icon: "minecraft:spectral_arrow"
+			x: 5.5d
+			y: 2.5d
+			subtitle: "千万不要担心弹药不够"
+			description: [
+				"奖池包含箭、光灵箭、药水箭和Guns Without Roses的子弹。"
+				"需要先完成“进入下界”任务。"
+			]
+			dependencies: [
+				"095084FE1689FD86"
+				"33F2D31AAB688417"
+			]
+			repeatable: true
+			id: "16078451F0C66EAE"
+			tasks: [{
+				id: "7A53F921D9C5AF45"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "78B80C2C9BE8A7F2"
+				type: "random"
+				table_id: 722340979295078566L
+			}]
+		}
+		{
+			title: "耐心点，每隔两个小时会给你2个抽奖币"
+			x: -6.0d
+			y: 5.0d
+			dependencies: ["095084FE1689FD86"]
+			hide: true
+			id: "004EA6429E4281CB"
+			tasks: [{
+				id: "055B6743012AB0E9"
+				type: "questsadditions:time"
+				elapsedTime: 7200L
+				gameTime: "system"
+			}]
+			rewards: [{
+				id: "1B722C40D85E4030"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"customnpcs:itemscripteddata": { }
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "我是迎宾酒抽奖机"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:potion_effect.minecraft.instant_health": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			x: 5.5d
+			y: 5.5d
+			subtitle: "强力药水！"
+			description: ["需要先完成“进入下界”任务。"]
+			dependencies: [
+				"095084FE1689FD86"
+				"33F2D31AAB688417"
+			]
+			repeatable: true
+			id: "76F524CF1649F0FE"
+			tasks: [{
+				id: "48EDABE101CBEA1B"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "718C0BE5E29ED95E"
+				type: "random"
+				table_id: 1466836634456039882L
+			}]
+		}
+	]
+}

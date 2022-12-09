@@ -1,0 +1,13 @@
+
+[default_gamerule]
+	doVanillaAttack = true
+	keepSkills = true
+	hasFallAnimation = true
+	disapleEntityUI = false
+	#Range: 0 ~ 100
+	weightPenalty = 0
+
+[loot]
+	skill_book_mob_loot = true
+	skill_book_chest_loot = true
+

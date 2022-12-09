@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "addition": {
+    "item": "forestcraft:molten_alloy"
+  },
+  "result": {
+    "item": "bonfires:coiled_sword"
+  }
+}

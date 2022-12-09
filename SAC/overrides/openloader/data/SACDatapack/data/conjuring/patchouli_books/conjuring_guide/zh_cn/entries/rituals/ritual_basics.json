@@ -1,0 +1,16 @@
+{
+  "name": "仪式基础",
+  "icon": "conjuring:blackstone_pedestal",
+  "category": "conjuring:rituals",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "鉴于$(item)镶金黑石$()有着一些奇特的魔法特性，用它建造一个基座似乎是完全合理的。事实证明，它们擅长展示物品并提供其精华，从而能够执行$(thing)仪式$()。不过，在此之前，基座$(thing)需要被链接$()到各自仪式的核心上。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "conjuring:crafting/blackstone_pedestal",
+      "text": "这通过先 $(thing)shift 右击$()一个基座然后对应的仪式核心来完成，同时要挥舞着任意种类的$(l:conjuring:basics/conjuring_scepters)咒术权杖$()。"
+    }
+  ]
+}

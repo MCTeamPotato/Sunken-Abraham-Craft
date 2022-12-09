@@ -1,0 +1,16 @@
+{
+  "name": "咒术焦镜",
+  "icon": "conjuring:conjuring_focus",
+  "category": "conjuring:basics",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "灵魂是复杂的实体，因此控制它们当然不是一件容易的事。用于实现它的工具被称为$(item)咒术焦镜$()。这种简单的透镜由$(l:conjuring:basics/soul_composite_materials#soul_alloy)灵魂合金$()与一些$(item)金$()加固制成，它利用它们的协同属性来安全地包含某种灵魂类型的内部构造。"
+    },
+    {
+      "type": "conjuring:soulfire_forge_recipe",
+      "recipe": "conjuring:soulfire_forge/conjuring_focus",
+      "text": "当插入到$(l:conjuring:basics/conjurer)咒术笼$()时，它真正的力量将开始展现，而被储存灵魂类型的生物将被召唤。$(p)为将灵魂困在焦镜中，一个人应寻求执行$(l:conjuring:rituals/ritual_of_extraction)提取仪式$()。"
+    }
+  ]
+}

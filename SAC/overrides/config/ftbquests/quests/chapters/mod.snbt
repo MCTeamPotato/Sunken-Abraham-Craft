@@ -1,0 +1,336 @@
+{
+	id: "482DEE2B4065C15B"
+	group: ""
+	order_index: 4
+	filename: "mod"
+	title: "&e不得不说的事"
+	icon: {
+		id: "tomes:archaic_tome"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 2.5d
+			y: 3.5d
+			width: 15.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "citadel:textures/gui/book/book_background.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			width: 15.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "citadel:textures/gui/book/book_pages.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "367DB04D2C4FE595"
+		}
+	]
+	quests: [
+		{
+			title: "笔记6——秘典"
+			x: -2.5d
+			y: -0.5d
+			subtitle: "需要先完成：阅读“笔记5”"
+			description: ["秘典是储存功能性的魔法的容器，这些魔法包括但不限于读取所有附魔台中的附魔词条、加速时间流逝等，但不同的法术需要通过附魔在对应的秘典（共3本）上才能发挥作用。"]
+			dependencies: [
+				"367DB04D2C4FE595"
+				"15572DC0E3FD958B"
+			]
+			hide: true
+			id: "3CEDCE26B61075DE"
+			tasks: [{
+				id: "1B06F3BF59BD8C49"
+				type: "checkmark"
+				title: "笔记6——秘典"
+				icon: {
+					id: "tomes:archaic_tome"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:writable_book"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "这是你的笔记，开始阅读吧"
+			description: [
+				"身处异乡，孤独一人，真是欲哭无泪啊。但是我遇到了一只衰颓的巨龙，它似乎想要给予我一些指引。它到底想要干什么呢？不管怎样，这是我在这里唯一能与之交流的东西了，还是先珍惜吧。"
+				"（笔记会给予你提示与建议，且完成的条件都比较简单，建议好好阅读）"
+			]
+			dependencies: ["367DB04D2C4FE595"]
+			hide: true
+			id: "50158DFC0EDC7EF5"
+			tasks: [{
+				id: "7DF3CAA768AF2E27"
+				type: "checkmark"
+				title: "笔记1——巨龙"
+			}]
+		}
+		{
+			icon: {
+				id: "bonfires:coiled_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: -2.0d
+			subtitle: "需要先完成：阅读“笔记1”"
+			description: [
+				"巨龙身边有一个被称作「篝火」的东西，在一段时间的闲聊后，它告诉我：这是一个能起到类似我们那经典的“传送石碑”作用的东西，但除此之外，它还可以强化我手上的装备，只不过所需的物品我目前暂时无法集齐，但它可以给我一点。"
+				"篝火除了传送之外，还可以作为我的重生点存在。同时，它也可以补满我手上那可以直接让我回满血的&l原素瓶&r。"
+			]
+			dependencies: [
+				"367DB04D2C4FE595"
+				"50158DFC0EDC7EF5"
+			]
+			hide: true
+			id: "4E7FFC042939FAB6"
+			tasks: [{
+				id: "0BC7889DA8FE5A57"
+				type: "checkmark"
+				title: "笔记2——篝火"
+				icon: {
+					id: "bonfires:coiled_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"bonfires:reinforce": {
+							maxLevel: 10
+							level: 0
+						}
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0C45DE8842255663"
+					type: "item"
+					item: {
+						id: "bonfires:ash_bone_pile"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "28AA2BC6A6064F30"
+					type: "item"
+					item: {
+						id: "bonfires:coiled_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"bonfires:reinforce": {
+								maxLevel: 10
+								level: 0
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "720538695ABED5A0"
+					type: "item"
+					item: {
+						id: "bountifulbaubles:potion_recall"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+						}
+					}
+					count: 6
+				}
+				{
+					id: "53D378E84D83E708"
+					type: "item"
+					item: {
+						id: "bountifulbaubles:potion_wormhole"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			title: "笔记3——危机四伏的世界"
+			x: 1.5d
+			y: -2.0d
+			subtitle: "需要先完成：①阅读“笔记2”；②生存 1 天"
+			description: [
+				"在这片区域度过了几天后，我逐渐发现了这里的危险之处——敌人的身手矫健又敏捷、怪物横行的堡垒要塞时有出现、各种强力的敌人也不断迫使着我升级装备。但从敌人和建筑那儿搜刮来的材料和装备确实不错，同时从一些强力的敌人身上所获得的战利品拥有着不错的相性，可以用来制造趁手的兵器。"
+				"此地的亡灵生物十分强大，不仅会自然恢复生命值，且它们对寻常的物理攻击有很大的抗性。"
+			]
+			dependencies: [
+				"367DB04D2C4FE595"
+				"4E7FFC042939FAB6"
+			]
+			hide: true
+			id: "34D4A4FA8A767D4C"
+			tasks: [{
+				id: "297C844A585C6AD4"
+				type: "questsadditions:days"
+				days: 1
+			}]
+		}
+		{
+			icon: "bonfires:titanite_shard"
+			x: 1.5d
+			y: -0.5d
+			subtitle: "需要先完成：阅读“笔记3”"
+			description: ["巨龙说，在这里，强化装备的方法有很多，除了先前提到的篝火强化之外，这里还有由神秘的魔法所造就的全新附魔。而用击杀一些特殊生物获得的战利品加上一些珍稀材料，也能做成一些强化已有附魔的物品。"]
+			dependencies: [
+				"367DB04D2C4FE595"
+				"34D4A4FA8A767D4C"
+			]
+			hide: true
+			id: "6F59FB32417527AA"
+			tasks: [{
+				id: "28D9B7EA0A500617"
+				type: "checkmark"
+				title: "笔记4——强化"
+				icon: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+					id: "modifiers:modifier_book"
+					Count: 1b
+					tag: {
+						bookModifier: "modifiers:legendary"
+					}
+				}
+			}]
+		}
+		{
+			title: "笔记5——探索"
+			icon: {
+				id: "forestcraft:sky_walkers"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: -0.5d
+			subtitle: "需要先完成：阅读“笔记4”"
+			description: [
+				"此地的许多材料在目前阶段需要我通过探索未知区域来获得，因此我得获得或制造出一些便于旅行的装备。如&l七里靴&r、&l轻便靴子&r等。"
+				"天上偶尔会掉下&l天空碎片&r，我可以用它和七里靴以及轻便靴子结合，制成&l天空漫游者&r。"
+				"用黑曜石、熔火合金锭和钻石靴子可以制作出&l抗火靴&r，将其和天空漫游者以及下界合金靴子一起锻造便可制作出兼具两者功能的&l强硬的下界合金靴子&r，这是靴子的最终升级。"
+			]
+			dependencies: [
+				"367DB04D2C4FE595"
+				"6F59FB32417527AA"
+			]
+			hide: true
+			id: "15572DC0E3FD958B"
+			tasks: [{
+				id: "6E0239507982288A"
+				type: "checkmark"
+				title: "笔记6——探索"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "需要先完成：阅读“笔记6”"
+			description: [
+				"在世界各地，包括此处，都散落着许多的“饰品”。它们大多是上古魔法时代所以留下来的产物，而部分饰品在今天依然可以被铸造，佩戴它们可以进一步强化佩戴者的各项属性。"
+				"但因为一般人不能承受太强的魔法力量，我只能同时佩戴5个饰品。"
+				"除此之外，我还可以随身携带3个有特殊能力的“法器”。"
+			]
+			dependencies: [
+				"367DB04D2C4FE595"
+				"3CEDCE26B61075DE"
+			]
+			hide: true
+			id: "447F5644FB9F89F2"
+			tasks: [{
+				id: "17674ED818D7F81F"
+				type: "checkmark"
+				title: "笔记7——饰品"
+				icon: "bountifulbaubles:ankh_charm"
+			}]
+		}
+	]
+}

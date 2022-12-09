@@ -1,0 +1,134 @@
+{
+	id: "33396E102B5A4B95"
+	group: ""
+	order_index: 0
+	filename: "33396E102B5A4B95"
+	title: "&6???"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "&l&e[SAC]沉没的亚伯拉罕(The Sunken Abraham Craft)"
+			description: [
+				"本整合包的任务仅提供一定的指导，奖励不多，但仍要记得检查任务。"
+				"此类“√”图标的任务只需点击“√”即可完成。"
+				"现在，从盔甲架上拿取武器和盔甲，并右击篝火设置路径点和重生点。"
+			]
+			id: "0E26BA162A395C9B"
+			tasks: [{
+				id: "4E714D73158CF51D"
+				type: "checkmark"
+				title: "&l&e新的开始？"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			subtitle: "帅！"
+			description: [
+				"注意：按“史诗战斗-切换战斗/采掘模式键”(默认为r)在战斗和采掘模式之间切换，战斗模式下无法采掘方块。同时，按默认M键可以切换自动索敌模式，准备好开无双了吗？建议在第三人称或越肩视角第三人称下战斗。"
+				"学习了手上的技能书后，手持武器长按右键可以格挡，按默认R键可以进行翻滚躲避攻击。这些操作均会消耗“耐力”(右下角会显示)，若耐力消耗完了，玩家将会无法使用这些技能且会进入几秒钟的硬直状态。"
+			]
+			dependencies: ["0E26BA162A395C9B"]
+			hide: true
+			id: "7B0C49762EDF875D"
+			tasks: [{
+				id: "08921BBE7310C6C3"
+				type: "checkmark"
+				title: "史诗战斗"
+				icon: {
+					id: "epicfight:iron_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"bonfires:reinforce": {
+							maxLevel: 10
+							level: 0
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "stab"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "小试牛刀"
+			icon: {
+				id: "mowziesmobs:wrought_helmet"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			x: 7.5d
+			y: -0.5d
+			subtitle: "干掉它，你便可以离开此处"
+			description: [
+				"前方的钢铁守护者虽然可怕，但只要掌握了节奏并灵活格挡，它也伤不了你分毫。"
+				"提示：在它竖劈巨斧后攻击它的背后来造成伤害。"
+				"杀死它后，再次查看任务。"
+			]
+			dependencies: ["7B0C49762EDF875D"]
+			hide: true
+			id: "29A36AAA3497285A"
+			tasks: [{
+				id: "1018F7ECF037402C"
+				type: "advancement"
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+			}]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			subtitle: "回到主世界去"
+			description: ["按下标有“前往主世界”的告示牌下方的按钮，你便可以回到主世界。"]
+			dependencies: ["29A36AAA3497285A"]
+			hide: true
+			id: "7E491F6DED963FCF"
+			tasks: [{
+				id: "578E264AD090E49B"
+				type: "checkmark"
+				title: "离开"
+			}]
+		}
+	]
+}

@@ -1,0 +1,468 @@
+{
+	id: "4F4E76D9276A732B"
+	order_index: 6
+	title: "土豆餐厅"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "simplefarming:eggplant_parmesan"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "simplefarming:beef_curry"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "simplefarming:beef_and_broccoli"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "simplefarming:blt"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "simplefarming:cheeseburger"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "simplefarming:hamburger"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 32
+		}
+		{
+			item: {
+				id: "simplefarming:pulled_pork_sandwich"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "simplefarming:pork_curry"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "simplefarming:lasagna"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "simplefarming:italian_beef"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			title: "4× 蛋糕"
+			item: {
+				id: "minecraft:cake"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "simplefarming:chocolate_cake"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					SkullOwner: {
+						Id: [I;
+							817045569
+							1613776984
+							-1200609084
+							-170685205
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3MDM3NzI4NDM4OSwKICAicHJvZmlsZUlkIiA6ICIzMGIzMjA0MTYwMzA0ODU4Yjg3MDI4YzRmNWQzOGNlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKaWFuQmlfMjMzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NiYmE1Njg2MTE0OTIxMjQ0NTY3ZTY3MGI3ZmU4NTNkN2NmZjcyZDUyOTVhMzlhYjc0ZTNmOWM1MjdmZDZlNGUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWE3NjUzNzY0Nzk4OWY5YTBiNmQwMDFlMzIwZGFjNTkxYzM1OWU5ZTYxYTMxZjRjZTExYzg4ZjIwN2YwYWQ0IgogICAgfQogIH0KfQ=="
+								Signature: "RsLIlgWazHDTT44WzEcebC9RQlOfhfnxoxYXicAIJsUde1AEsuEgkauBM5+sk44leaxktV+ay5ik7wsVwtOnyP/hvLT7DdG3+IM0HNHjERN63xA9x7IwAGKDs/DtrLkXCCHILJPJBUbROVnCdApFzFtvndeuB1yGPs1GXsYrS+Jh/aY5dog3ka3lD1KF55GJayH2pasEyEJDQqVpBLFWHBXGayaBnV8Va5D+6C4cc84LZarJYSpiKCE27pQPjRlJLGK7O32F1JElZv7ab7sHXYqLsd9maw5IP99+/VkLA0qqjuoqo3Oi00qPRKHZdAomVS6EkdIfc/f4MmA+s6uBd5mQuGGtIw70TRC7VBIN5mq4vr7k6rQ++z/Kh/rCb/TRKVZVxtQTWIEaXj4wyczLb4d4vAoRQyKilX69mXQeuYV5UHi+e3kxOUjKlPWpCCN8xpUzdsAFZTJKEz8Qcu6V3ImOSATOBbSLlBR7KnAdoeV747yxCWB1iHah9rwaim8MQ3GGqBAd9PZUNoeH0a0YnhA3VQWy6md5+ax25dsvulgVhjQMf475jLxpTmQh5L4tpov8aaa7tNth82/RKFc64C/PRKtVjcecyNMvL1DvO3f5x6zqwSSsab/L5fMh7+7aWkMMsEJT7QYZMgKk8Zk3Ay+z4vggQVtrfq6J8WFCiwo="
+							}]
+						}
+						Name: "JianBi_233"
+					}
+					display: {
+						Name: "{\"text\":\"JianBi_233:谢谢惠顾\"}"
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					SkullOwner: {
+						Id: [I;
+							-1475165336
+							-1730982820
+							-1673059680
+							-1539686348
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3MDM4MDk4OTIxNSwKICAicHJvZmlsZUlkIiA6ICJhODEyYzM2ODk4ZDM0YzVjOWM0NzIyYTBhNDNhNDAzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfS2FzdWFsaXhfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY2M2VhOGIxZjM5ZmI3ZWM2MTc0ZmVmNDM2ODcxYzRhNDhkNjFiOTJiZDk5MWQ5ZWM3MjhmZjQ1OGE3YzZjMGEiCiAgICB9CiAgfQp9"
+								Signature: "UgNVDL/Pqs5tWGubgSib2mWNG2MXkHNg1fxmCq0nPqWxqivHkIGbmvWsa/YAxzaC7w2Wtfva0z3aIN5n+NOTDswYPwq4pZSXELS8gPWXuYjDkt4oXUv4tJhxWGIlmc9YF5YVsQMvXunWQFWgRj5vdog5f43Dp3ym6Le5UVfBEPfLmYtkYp9BnafG6A+12EZ06+jrSSsTfyCwwbdgCKFh4hsT+jdi0FnE4CnCEj3TNriLIQ6Gyl+mAhfjnBRTlPh1lOyhd0lFAaR6uMAqVBndzLW7wcuhASzFMKjXODQihQn2Qy1xZBVWppt5LrHPPgyKUL143S+nblogHppJ70H62M5c61GdRfHQRSLHZjULRgD03VTz+EL9vnKexFmP55kq4SPvzqQX+8t1qLzyVmBKgeHzFD1zGRRlQTmwkm2YMfWhcLAt0qmSm2IgFwQjXsOfrj6V1B+SFKt9r7xykdrc216XKptoNueIYHXwNDE6QJg7Nz5Z6veKzZrokY9bhlQUzYjfDxfNezu8SJ5YdRebxpss9yIXctcRviNecMIGN2TmfYvKuEyh2esDIA+sbu/20gPt8sv5+PTIZ0vmE1VVIMEArHFSrk1nmbDsV8P2a07j0jhHkxaimBh0Uft4beiczBJ6vrjT98cgUluKE8/ViCDZRgxao1Ans9V6eFCjqEM="
+							}]
+						}
+						Name: "_Kasualix_"
+					}
+					display: {
+						Name: "{\"text\":\"_Kasualix_ThePotato:谢谢惠顾\"}"
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					SkullOwner: {
+						Id: [I;
+							-850165389
+							986663641
+							-1133415161
+							1028186304
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3MDM3NjYzNjk3MiwKICAicHJvZmlsZUlkIiA6ICJjZDUzODE3MzNhY2Y0YWQ5YmM3MTc1MDczZDQ4ZTBjMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0YW5rb2ZwYWNlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mNjE4MjFhNmFhNWJmNTdlODMyNjg3YTZjZDAxNDk2MTI4YjZiM2MwMjg1NDY1Y2IyNjc1NDIzY2YxNjNmYWE5IgogICAgfQogIH0KfQ=="
+								Signature: "Fj1pR3QL47H6DpkPS3IhehmrasUhwYorCt3y2KePJjWYeziLuhkCuQFn4IB6JUp9nfgWgshRbTPLyDOkscaPes3fSQYYOI9Bz7rXEC/4Ho2vTghG5mvMEub/L79/9n7/xNFV1Y0HAdyOAnU2KPZgn0rfmufROD2Y7plEUHWjLaR2i5cTwUyl/HZ1J2hHcnOHzLPuCJ4h6G7oGBdO5GqmYOUWJhuT9/aApHj621LdgzIKhSDFRXE8KIYfRvNO8QBO5vmm4UlWTu+ibtBOefdheidlD0sxOAuXWhvDTzLnoxFsHHnEj0shvsoVKIXmhSMOLo3w4x5ungJ9id5kwe/Wyyxj2mZkRNwZmM+NI8wmS+rt9ZoHduudJDIBQS317aKyJRKptEGd0kkXhe8pa6iYzNXhM+aVqycxMW5KQ+aSuQ7gjX3G1y8Fzy1ltuISJjEMfWfxXFJW7nC9LVWL11T/90kcEiU9EvLVruD7sY5yuwV8/PxSJNKku/v/cHaaCW91FDDb7vU5P/fFeupKvXd2bOqpRMy06UxQG4svV9ssWh3jdSJaxEZ0WpXVLmUSkYlaiKUQazhPBxko37tLtjC8yo/HqyLrkoUE8dilA+6AjREpdjX8vG30B/b1E2pdrfuVwtG+SDg0gl+lXK7qn+xaTD+PNf+xFDbtGVWPOxlO/hQ="
+							}]
+						}
+						Name: "tankofpacer"
+					}
+					display: {
+						Name: "{\"text\":\"tankofpacer:谢谢惠顾\"}"
+					}
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"customnpcs:itemscripteddata": { }
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "灵魂合金长柄镰",
+  "icon": "conjuring:soul_alloy_scythe",
+  "category": "conjuring:soul_alloy_tools",
+  "extra_recipe_mappings": {
+    "conjuring:soul_alloy_hatchet": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "照料一片田可能是一项艰巨的任务，尤其是当涉及到更大的田时。$(item)灵魂合金长柄镰$()提供了一个完美的解答。它既是一种高效的切割设备，又是一种远程收割设备，可以以惊人的速度减少土豆和类似的植物物质。使用$(l:conjuring:basics/basic_gem_tinkering#aspect_gems)向态宝石$()在这些方面升级："
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(#007a18)≈ 急速：提高镰刀挥动的速度。$(br) $(li)$(#a80f01)ღ 丰裕：可能会导致在干草堆中发现更多的针头或农作物种子。与时运叠加。$()$(br) $(li)$(#4d8184)λ 范围：增加灵魂收获能力的范围。$()$(br)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(#123f89)ʊ 无知：使用该工具时忽略少量耐久损失，与耐久叠加。也使得灵魂收割忽略尚未成熟的作物。"
+    }
+  ]
+}

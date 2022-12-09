@@ -1,0 +1,26 @@
+{
+    "attack_style":"slash",
+    "attack_element":"fire",
+    "defence_style":{
+        "slash":0,
+        "hit":0,
+        "magic":50,
+        "explosion":0,
+        "projectile":100,
+        "stab":0,
+        "environment":0
+    },
+	"defense_element":{
+		"light":0,
+		"darkness":0,
+		"fire":0,
+        "water":-50,
+        "ice":-50,
+        "thunder":0,
+        "wind":0,
+        "earth":0,
+        "flora":0,
+        "normal":0
+    },
+	"biome_dependency":true
+}

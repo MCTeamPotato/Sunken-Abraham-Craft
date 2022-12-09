@@ -1,0 +1,549 @@
+
+[Structures]
+
+	[Structures.balloon_cold]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 25
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.5
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "minecraft:ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_ocean, minecraft:cold_ocean, minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.balloon_hot]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 25
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.5
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "minecraft:ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_ocean, minecraft:cold_ocean, minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.easter_totem]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 80
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.7
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.wild_portal]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 1000
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.62
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.stone_throne]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 45
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.83
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach, !#structure_gel:desert"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.ender_ship]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 128
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.67
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "minecraft:ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_ocean, minecraft:cold_ocean, minecraft:deep_cold_ocean"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.villager_ship]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 212
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.67
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "minecraft:ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_ocean, minecraft:cold_ocean, minecraft:deep_cold_ocean"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.sea_dome]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 300
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.62
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "minecraft:ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_ocean, minecraft:cold_ocean, minecraft:deep_cold_ocean"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.big_house_oak]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 180
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.45
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:plains, #structure_gel:forest"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.big_house_acacia]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 180
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.45
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:savanna"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.big_house_desert]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 180
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.45
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:desert"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.big_house_spruce]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 180
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.45
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:taiga, #structure_gel:snowy, #structure_gel:mountain"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.big_house_jungle]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 180
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.45
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:jungle"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.four_tower]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 180
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.35
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.lapis_house]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 200
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.55
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.wild_iron_ore_rock_acacia_leave]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 35
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.81
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.wild_iron_and_coal_rock]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 35
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.81
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.wild_iron_rock_polish_andesite]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 35
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.81
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.stone_wither]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 30
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.59
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.wild_wheat_farm]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 220
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.65
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.wild_melon_farm]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 450
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.62
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.wild_forge]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 45
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.54
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.village_camping]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 80
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.45
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach, !#structure_gel:river"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.ship_pirate]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 220
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.4
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "minecraft:ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_ocean, minecraft:cold_ocean, minecraft:deep_cold_ocean"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.lava_volcan]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 65
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.64
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !minecraft:frozen_ocean, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.wild_granite_andesite_rock]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 44
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.81
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.mini_zombie_dungeon]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 95
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.82
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.zombie_dungeon]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 125
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.66
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.ruined_house_cobweb]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 220
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.8
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.mesa_flowers]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 350
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.32
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.wild_house]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 125
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.77
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.wild_house_vines]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 135
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.79
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.ruined_house_cobblestone]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 120
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.74
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.house_ruined]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 525
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.75
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.cobbled_portal]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 101
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.54
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.water_castle]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 650
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.5
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "minecraft:ocean, minecraft:warm_ocean, minecraft:lukewarm_ocean, minecraft:deep_lukewarm_ocean, minecraft:deep_ocean, minecraft:cold_ocean, minecraft:deep_cold_ocean"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.ladders_lava_trap]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 500
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.43
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.graveyard_abandonned]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 600
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.46
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+
+	[Structures.bridges_wood_spruce]
+		#The average distance between structures of this type, measured in chunks.
+		#Range: > 1
+		spacing = 3000
+		#Percent chance of generating in an allowed chunk.
+		#Range: 0.0 ~ 1.0
+		probability = 0.42
+		#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
+		biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore, !minecraft:ocean, !minecraft:warm_ocean, !minecraft:lukewarm_ocean, !minecraft:deep_lukewarm_ocean, !minecraft:deep_ocean, !minecraft:cold_ocean, !minecraft:deep_cold_ocean, !#structure_gel:beach"
+		#How the biomes list should be used. true = whitelist, false = blacklist.
+		is_whitelist = true
+		#What dimensions should this structure be placed in. Type "all" to allow all dimensions
+		valid_dimensions = "minecraft:overworld"
+

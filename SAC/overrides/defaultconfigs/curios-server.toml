@@ -1,0 +1,79 @@
+#List of curio slot type settings
+[[curiosSettings]]
+ identifier = "ring"
+ size = 0
+ override = true
+ visible = false
+[[curiosSettings]]
+ identifier = "charm"
+ size = 0
+ override = true
+ visible = false
+[[curiosSettings]]
+ identifier = "necklace"
+ size = 0
+ override = true
+ visible = false
+[[curiosSettings]]
+identifier="head"
+size = 0
+override = true
+visible = false
+[[curiosSettings]]
+ identifier = "curio"
+ size = 0
+ override = true
+ visible = false
+ hasCosmetic = false
+[[curiosSettings]]
+ identifier = "bracelet"
+ size = 0
+ override = true
+ visible = false
+[[curiosSettings]]
+ identifier = "body"
+ size = 0
+ override = true
+ visible = false
+[[curiosSettings]]
+identifier="trinkets"
+size = 5
+override = true
+visible = true
+hasCosmetic = true
+[[curiosSettings]]
+identifier="belt"
+size = 0
+override = true
+hasCosmetic = false
+[[curiosSettings]]
+ identifier = "hands"
+ size = 0
+ override = true
+ visible = false
+ [[curiosSettings]]
+ identifier = "back"
+ size = 0
+ override = true
+ visible = false
+ hasCosmetic = false
+ [[curiosSettings]]
+identifier="wings"
+size = 0
+override = false
+hasCosmetic = false
+ [[curiosSettings]]
+identifier="scroll"
+size = 0
+override = true
+hasCosmetic = false
+ [[curiosSettings]]
+identifier="spellstone"
+size = 1
+override = true
+hasCosmetic = true
+ [[curiosSettings]]
+identifier="super_curio"
+size = 0
+override = true
+hasCosmetic = false

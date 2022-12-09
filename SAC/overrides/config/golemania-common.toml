@@ -1,0 +1,27 @@
+
+["Configure Your Golemania Mod!"]
+	#
+	#Controlls whether the Obsidian Golem spawns in raids, usually set to true
+	"Obsidian Golem Raid Spawning" = true
+	#
+	#Controlls whether villagers summon Furnace Golems when panicking, usually set to true
+	"Villagers Summon Furnace Golems" = true
+	#
+	#Controlls whether villagers summon Amethyst Golems when panicking, usually set to true
+	"Villagers Summon Amethyst Golems" = true
+	#
+	#Controlls whether villagers summon Diamond Golems when panicking, usually set to true
+	"Villagers Summon Diamond Golems" = true
+	#
+	#Controlls whether Furnace Golems can naturally spawn in villages instead of the Iron Golem, usually set to true
+	"Furnace Golem Village Spawning" = true
+	#
+	#Controlls whether Amethyst Golems can naturally spawn in villages instead of the Iron Golem
+	"Amethyst Golem Village Spawning" = true
+	#
+	#Controlls whether Diamond Golems can naturally spawn in villages instead of the Iron Golem
+	"Diamond Golem Village Spawning" = true
+	#
+	#Controlls whether houses with Golem Forges appear in Villages, usually set to true
+	"Generate Village Houses" = true
+

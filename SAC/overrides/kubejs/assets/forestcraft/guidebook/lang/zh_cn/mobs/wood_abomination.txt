@@ -1,0 +1,8 @@
+This hostile mob|
+spawns at night in a dark|
+forest. They make extremely|
+strange sounds that can scare|
+an expectant t raveler.|
+They do not cause any|
+particular problem, but they try|
+to attack with leaps. 

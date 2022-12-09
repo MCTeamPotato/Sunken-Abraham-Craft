@@ -1,0 +1,17 @@
+
+[soaring_island_separation]
+	#The higher the value the rarer the islands appear
+	#	
+	#	1 - madness
+	#	
+	#	34 - 40 - normal value
+	#
+	#	100+  -  very rare
+	#Range: 1 ~ 1000
+	separation = 45
+
+[soaring_island_height]
+	#Height of the islands above the ground
+	#Range: 1 ~ 120
+	height = 50
+

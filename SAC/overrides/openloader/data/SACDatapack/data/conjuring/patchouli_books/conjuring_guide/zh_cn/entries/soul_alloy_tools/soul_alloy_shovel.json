@@ -1,0 +1,18 @@
+{
+  "name": "灵魂合金锹",
+  "icon": "conjuring:soul_alloy_shovel",
+  "category": "conjuring:soul_alloy_tools",
+  "extra_recipe_mappings": {
+    "conjuring:soul_alloy_shovel": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "虽然锹在正常情况下用处不大，但$(item)灵魂合金锹$()的能力很可能会成为一个好朋友。使用时，它会找出周围的任何物品，并将其带回给唤者。$(item)灵魂合金锹$()可配备$(l:conjuring:basics/basic_gem_tinkering#aspect_gems)向态宝石$()，这在特定方面提高了它:$(br) $(li)$(#007a18)≈ 急速：提升挖掘速度。与效率叠加。$()$(br) "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(#a80f01)ღ 丰裕：丰富挖掘宝藏时发现的战利品。与时运叠加。$()$(br) $(li)$(#4d8184)λ 范围：扩大挖掘范围。每宝石增加 1 格。$()$(br) $(li)$(#123f89)ʊ 无知：使用工具时忽略少量耐久损失。与耐久叠加。"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "进阶宝石加工",
+  "icon": "conjuring:ignorance_gem",
+  "category": "conjuring:soul_alloy_tools",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "准备好$(l:conjuring:basics/basic_gem_tinkering)基本宝石加工$()后，一个人可能会意识到$(item)宝石工匠台$()的$(o)最高潜力$()。在获得一些$(item)灵魂合金工具$()后，它可以给它们注入$(l:conjuring:basics/basic_gem_tinkering)向态宝石$()。这个过程与正常操作非常相似，因为我们只须简单地在浮柱上替换$(item)小型咒术精华$()为工具和物品与想要的宝石。不过这种力量也有个限度。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "conjuring:textures/gui/patchouli/gem_tinkerer_patchouli_1.png",
+        "conjuring:textures/gui/patchouli/gem_tinkerer_patchouli_2.png",
+        "conjuring:textures/gui/patchouli/gem_tinkerer_patchouli_3.png"
+      ],
+      "border": true,
+      "title": "调整宝石",
+      "text": "一个工具只能携带两种类型的宝石，且总数不得超过五个。"
+    }
+  ]
+}

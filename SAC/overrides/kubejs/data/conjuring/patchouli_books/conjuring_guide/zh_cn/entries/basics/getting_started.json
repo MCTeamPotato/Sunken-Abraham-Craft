@@ -1,0 +1,15 @@
+{
+  "name": "入门",
+  "icon": "conjuring:enchiridion",
+  "category": "conjuring:basics",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "为了开始实践咒术，需要基础的$(item)下界合金碎片$()供给和一些$(l:conjuring:basics/conjuration_essence)咒术精华$()。一个人要创造的第一件设备是$(l:conjuring:basics/soulfire_forge)灵魂火锻炉$()，为制成基本的$(l:conjuring:basics/soul_composite_materials)灵魂复合材料$()。继续前进，构建一个$(l:conjuring:basics/conjurer)咒术笼$()以及一柄$(l:conjuring:basics/conjuring_scepter)咒术权杖$()和$(l:conjuring:basics/conjuring_focus)咒术焦镜$()是十分合适的。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "获得这些用具后，建议复习$(l:conjuring:rituals/ritual_basics)仪式基础$()并寻求执行$(l:conjuring:rituals/ritual_of_extraction)提取仪式$()创建第一个召唤设置。这可以使用$(l:conjuring:basics/basic_gem_tinkering)基础宝石加工$()中概述的实践加以改进。在获得了一些处理灵魂的经验之后，你可能有兴趣制作$(thing)灵魂合金工具$()。这些令人敬畏的装备可以通过$(l:conjuring:soul_alloy_tools/advanced_gem_tinkering)进阶宝石加工$()中的方法加强。不过，合成它们需要执行$(l:conjuring:rituals/ritual_of_weaving)织魂仪式$()。"
+    }
+  ]
+}

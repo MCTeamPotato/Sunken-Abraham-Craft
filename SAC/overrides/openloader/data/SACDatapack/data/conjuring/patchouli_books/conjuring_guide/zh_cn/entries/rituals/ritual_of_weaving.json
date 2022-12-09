@@ -1,0 +1,37 @@
+{
+  "name": "织魂仪式",
+  "icon": "conjuring:soul_weaver",
+  "category": "conjuring:rituals",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "一些合成过程，就像那些参与制造$(l:conjuring:soul_alloy_tools/basics)灵魂合金工具$()的，可能非常复杂，因此需要$(thing)织魂仪式$()来执行。$(p)为了开始，一个人应该放置一个$(item)灵魂织机$()并将其与四个基座链接如$(l:conjuring:rituals/ritual_basics)仪式基础$()所述。然后，合成材料必须放在织机和基座上。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "conjuring:crafting/soul_weaver",
+      "text": "最后一步中，$(item)灵魂织机$()必须装载$(l:conjuring:basics/conjuration_essence)咒术精华$()且随后用$(l:conjuring:basics/conjuring_scepters)咒术权杖$()$(thing)右击$()来开始仪式。"
+    },
+    {
+      "type": "multiblock",
+      "name": "织魂仪式",
+      "multiblock": {
+        "mapping": {
+          "0": "conjuring:soul_weaver",
+          "P": "conjuring:blackstone_pedestal"
+        },
+        "pattern": [
+          [
+            "___P___",
+            "___ ___",
+            "___ ___",
+            "P  0  P",
+            "___ ___",
+            "___ ___",
+            "___P___"
+          ]
+        ]
+      }
+    }
+  ]
+}

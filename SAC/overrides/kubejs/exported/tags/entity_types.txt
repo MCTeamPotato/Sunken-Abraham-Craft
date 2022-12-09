@@ -1,0 +1,105 @@
+To refresh this file, delete it and run /reload command again! Last updated: Mar 1, 2022 7:02:11 PM
+
+#iceandfire:dragon_targets
+- minecraft:cow
+- minecraft:sheep
+- minecraft:pig
+- minecraft:chicken
+- minecraft:fox
+- minecraft:horse
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:llama
+- minecraft:panda
+- minecraft:parrot
+- minecraft:polar_bear
+- minecraft:rabbit
+- minecraft:trader_llama
+- minecraft:wolf
+- minecraft:cat
+- minecraft:pillager
+- minecraft:cat
+- minecraft:strider
+- minecraft:piglin
+- minecraft:hoglin
+- minecraft:zoglin
+
+#iceandfire:scares_cockatrices
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#iceandfire:chickens
+- minecraft:chicken
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#iceandfire:fear_dragons
+- minecraft:cow
+- minecraft:sheep
+- minecraft:pig
+- minecraft:chicken
+- minecraft:cat
+- minecraft:fox
+- minecraft:horse
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:llama
+- minecraft:panda
+- minecraft:parrot
+- minecraft:polar_bear
+- minecraft:rabbit
+- minecraft:strider
+- minecraft:trader_llama
+- minecraft:wolf
+- minecraft:hoglin
+
+#iceandfire:cyclops_unliftables
+- minecraft:ravager
+
+#iceandfire:villagers
+- minecraft:villager
+- minecraft:wandering_trader
+
+#iceandfire:lightning_dragon_targets
+- #iceandfire:dragon_targets
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#iceandfire:sheep
+- minecraft:sheep
+
+#iceandfire:fire_dragon_targets
+- #iceandfire:dragon_targets
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#iceandfire:ice_dragon_targets
+- #iceandfire:dragon_targets
+- minecraft:turtle
+- minecraft:dolphin
+- minecraft:cod
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:tropical_fish

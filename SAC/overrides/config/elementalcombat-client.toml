@@ -1,0 +1,24 @@
+#Decides in which corner the Hud should be displayed.
+#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+hudAnchor = "TOP_RIGHT"
+#Offsets the hud along the x-coordinate. The direction depends on HudAnchor
+#Range: 0 ~ 500
+xOffSet = 0
+#Offsets the hud along the y-coordinate. The direction depends on HudAnchor
+#Range: 0 ~ 500
+yOffSet = 0
+#The multiplier of the combat data HUD size.
+#Range: 0.25 ~ 4.0
+scale = 1.0
+#The number of ticks until the defense data iterates in any HUD element.
+#Range: 1 ~ 200
+ticks = 30
+#If true, displays the defense values of the HUD in two rows (split in element and style).
+doubleRowDefenseHUD = true
+#If true, displays the defense values of the item tooltip in two rows (split in element and style).
+doubleRowDefenseTooltip = true
+#Activate/Deactivate WAILA/HWYLA plugin.
+activateWaila = true
+#If true, displays the defense values of the WAILA/HWYLA tooltip in two rows (split in element and style).
+doubleRowDefenseHWYLA = true
+

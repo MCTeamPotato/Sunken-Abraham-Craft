@@ -1,0 +1,43 @@
+{
+    "template": {
+        "type": "single", 
+        "id": "sac:bonfire", 
+        "maxDepth": 10, 
+        
+                               
+        "followTerrain": true 
+    },
+
+    "placement": {
+        "type": "surface",           
+        "minY": 10,
+        "maxY": 25,
+        "offset": -1,
+        "fluidSurface": false,
+
+        "terraform": -1
+    },
+   
+    "averageSpacing": 28,  
+    "minimumSpacing": 20,          
+    "seed": 328978,
+    "avoidOthers": true,       
+    
+    "biomes": [
+        "#taiga",
+        "#extreme_hills",
+        "#jungle",
+        "#mesa",
+        "#plains",
+        "#savanna",
+        "#icy",
+        "#beach",
+        "#forest",
+        "#desert",
+        "#swamp",
+        "#mushroom"
+    ],
+    "dimensions": [
+        "void:vanilla"
+    ]
+}

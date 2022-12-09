@@ -1,0 +1,19 @@
+
+["Ars Gears Config"]
+	#If it's random mode
+	Random_Mode = true
+	#All glyphs in the glyph pool
+	Random_Glyph_Pool = ["black_hole", "blood_slime", "chilling_touch", "combo", "death_grip", "fatal_bond", "life_sigil", "life_tap", "mana_slime", "metabolic_rush", "rewind", "rupture", "stalwart", "vengeful_strike", "amplify", "aoe", "blink", "cold_snap", "explosion", "fangs", "flare", "freeze", "gravity", "harm", "heal", "hex", "lightning", "orbit", "linger", "shield", "snare", "summon_decoy", "summon_vex", "summon_wolves", "self", "wither", "wind_shear"]
+	#How much the starting cost will be
+	Base_Price = 80
+	#How much each tier will increase cost
+	Price_Per_Tier = 54
+	#How many battle glyphs you may have in total
+	#Range: > 0
+	Max_Allowed_Glyphs = 9
+	#How many battle glyphs you lose on death
+	#Range: > 0
+	Death_Glyph_Loss = 0
+	#If you should automatically unlock a glyph after purchase
+	Auto_Unlock_Glyph = false
+
