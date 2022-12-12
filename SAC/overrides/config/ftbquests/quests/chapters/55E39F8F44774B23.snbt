@@ -7,9 +7,37 @@
 	icon: "bountifulbaubles:ender_dragon_scale"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -17.5d
+			y: -1.0d
+			width: 13.5d
+			height: 7.5d
+			rotation: 0.0d
+			image: "sac:textures/beginning.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "367DB04D2C4FE595"
+		}
+		{
+			x: 32.0d
+			y: -1.0d
+			width: 13.5d
+			height: 7.5d
+			rotation: 0.0d
+			image: "sac:textures/party.png"
+			hover: ["作者们和他们的小伙伴"]
+			click: ""
+			dev: false
+			corner: false
+			dependency: "44D40684F1C7F13F"
+		}
+	]
 	quests: [
 		{
-			x: -7.0d
+			x: -10.5d
 			y: -1.0d
 			subtitle: "无论怎样，首先得活下去"
 			description: [
@@ -39,9 +67,11 @@
 			y: 2.5d
 			subtitle: "战斗"
 			description: [
-				"在经典的短剑之外，我还可以使用一些其他类型的武器，比如长剑、大剑、太刀和匕首。"
+				"在经典的短剑之外，我还可以使用一些其他类型的武器，比如长矛、长剑、大剑、太刀和匕首。"
 				"我可以做一些别的武器，来强化自己的作战能力。有些轻型武器可以双持来提升战斗力。"
 				"打刀是一把带鞘的武士刀，可以在沙漠神殿的箱子里中找到。"
+				"单手持有的武器双持时会有特殊攻击并提升战斗力。疾跑时攻击也会有特殊攻击。“跳劈”也能进行特殊攻击并造成暴击。"
+				"攻击会增加右下角的蓝色武器图标上的数字，当数字消失（到100）时，你便可以通过长按特殊攻击键位（默认左键）来进行特殊攻击。"
 			]
 			dependencies: ["30C568C5EE8467B0"]
 			id: "4C56B4175B6026CC"
@@ -351,6 +381,7 @@
 		{
 			x: -3.5d
 			y: -4.5d
+			subtitle: "研究……"
 			description: ["巨龙准备教我如何利用灵魂施放魔法，但在此之前我需要先获得一些灵魂魔法精华，它说此物可以通过破坏刷怪笼来获得。"]
 			dependencies: ["30C568C5EE8467B0"]
 			id: "0407BCC1060E7210"
@@ -418,6 +449,7 @@
 		{
 			x: -3.5d
 			y: -8.0d
+			subtitle: "灵魂锻造"
 			description: ["用黑曜石、黑石和灵魂土便可制造灵魂火锻炉，巨龙告诉我，它可以用于锻造多种灵魂材料，看来我应该潜心钻研一下灵魂魔法了……"]
 			dependencies: ["0407BCC1060E7210"]
 			hide: true
@@ -458,10 +490,11 @@
 		{
 			title: "扎根"
 			x: -3.5d
-			y: 2.5d
+			y: 6.0d
 			subtitle: "努力生存，探索这神秘的区域"
 			description: ["经过一段时间的努力，我终于安顿下来了。这片区域虽跟我原本所在的地方有一定差异，但一些生存法则在这里同样适用。我需要先制作出&l附魔台、铁砧和锻造台&r，以便强化我的装备来应对这片危机四伏的区域。"]
-			dependencies: ["30C568C5EE8467B0"]
+			dependencies: ["7735330B322D0264"]
+			hide: true
 			id: "5206DEF6B2FD324B"
 			tasks: [
 				{
@@ -584,7 +617,6 @@
 				"下界合金装备是有必要制造的，因为之后我装备的很多升级都需以它为基础，所以我最好先制作出一套强力的下界合金装备。"
 			]
 			dependencies: ["5B54C195E35AA121"]
-			hide: true
 			id: "2382F0978D272FAE"
 			tasks: [{
 				id: "3EBBDF08EFCA2CA3"
@@ -982,14 +1014,15 @@
 					Damage: 0
 				}
 			}
-			x: 0.0d
-			y: -4.5d
+			x: 3.5d
+			y: 6.0d
 			subtitle: "出其不意，攻其不备"
 			description: [
 				"现在我要用手上的材料锻造一柄趁手的弓或弩，这样可以方便我在远处攻击敌人，同时，现在拉满弦的附魔弓的杀伤力可比我的剑强多了……"
 				"亦或者，我可以制造一些简单的枪械，虽然子弹造价有点昂贵，但对保命来说这样的花费也是值得的。"
 			]
-			dependencies: ["30C568C5EE8467B0"]
+			dependencies: ["4C56B4175B6026CC"]
+			hide: true
 			id: "7BAF52BB229D7123"
 			tasks: [{
 				id: "3BF61B9B3D86A7C3"
@@ -1434,7 +1467,8 @@
 		{
 			x: 0.0d
 			y: -8.0d
-			description: ["将吸收了灵魂的ConjuringFocus放入，你的灵魂之旅也暂时告一段落。"]
+			subtitle: "自定义刷怪笼"
+			description: ["将吸收了灵魂的咒术焦镜放入，你的灵魂之旅也暂时告一段落。"]
 			dependencies: ["0D150A7C19CA9799"]
 			hide: true
 			id: "7775D47BBE0FD36D"
@@ -1450,6 +1484,7 @@
 			subtitle: "末影之息"
 			description: ["带上玻璃瓶，收集点&d&l龙息&r吧，它会很有用的……"]
 			dependencies: ["3FB148801B2C62A7"]
+			hide: true
 			id: "5D824D6C564E88C8"
 			tasks: [{
 				id: "06DDC7C873164232"
@@ -1657,7 +1692,6 @@
 			subtitle: "加水、加油、加……"
 			description: ["制作烹饪锅，将符合条件的食物装进去并加热烹煮，便可制成可提供特殊效果的料理。当然，你需要先吃过一次料理，才能知道其具体效果。"]
 			dependencies: ["30C568C5EE8467B0"]
-			hide: true
 			id: "597796E657A16D0D"
 			tasks: [{
 				id: "71E1AADACD4309B6"
@@ -1726,6 +1760,422 @@
 				id: "2D85EDBD92A9B26C"
 				type: "random"
 				table_id: 2837347307520816851L
+			}]
+		}
+		{
+			title: "手艺工作"
+			x: -7.0d
+			y: 2.5d
+			subtitle: "你会缝纫吗？"
+			description: [
+				"为了获得背包来提升储存空间，你需要制作缝纫桌。"
+				"当然，在获得背包之前，你也可以试试使用阉割版的潜影盒——板条箱。"
+			]
+			dependencies: ["30C568C5EE8467B0"]
+			id: "3B1E3156B5381FE1"
+			tasks: [{
+				id: "027887BB8D7CCABD"
+				type: "item"
+				item: {
+					id: "improvedbackpacks:sewing_table"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "噫！好！我有背包了！"
+			x: -7.0d
+			y: 6.0d
+			subtitle: "储存空间解放ing"
+			description: [
+				"制作出一个背包不是你的终点，而是你的中点。你现在还得收集更多的皮革和线来制作大（2个）、中（3个）、小（3个）3种口袋，以便扩充你的背包的储存空间。"
+				"你也可以试试制造一个便携式的末影箱：末影背包。"
+			]
+			dependencies: ["3B1E3156B5381FE1"]
+			hide: true
+			id: "4FE8FEFD983451B6"
+			tasks: [{
+				id: "5254A2FFCAA823BE"
+				type: "item"
+				title: "任意背包"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "improvedbackpacks:backpack"
+					}
+				}
+			}]
+		}
+		{
+			title: "带着全世界一起旅行！"
+			x: -10.5d
+			y: 6.0d
+			subtitle: "背包 max"
+			description: ["把你的背包储存空间升级满！然后看看你那随身携带的大箱子！"]
+			dependencies: ["4FE8FEFD983451B6"]
+			id: "01F511B196D2CD68"
+			tasks: [{
+				id: "07F5EB1D0DEB33FB"
+				type: "advancement"
+				advancement: "improvedbackpacks:max_upgrade"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "549F7910C9C158AC"
+				type: "random"
+				table_id: 2837347307520816851L
+			}]
+		}
+		{
+			title: "楔形石碎片"
+			x: 0.0d
+			y: -4.5d
+			subtitle: "强化武器"
+			description: ["制作楔形石碎片，它可以用于在篝火处升级你的武器。"]
+			dependencies: ["30C568C5EE8467B0"]
+			id: "1AFFD4A7994B202C"
+			tasks: [{
+				id: "20A053BB879CEC56"
+				type: "item"
+				item: {
+					id: "bonfires:titanite_shard"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				count: 2L
+			}]
+		}
+		{
+			title: "铁质箱子"
+			icon: {
+				id: "expandedstorage:iron_chest"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			x: -3.5d
+			y: 2.5d
+			subtitle: "一箱塞万物"
+			description: [
+				"推荐制作升级工具，这样如果你有足够的资源可以试着直接升级到金箱子或钻石箱子。升级工具也方便你直接升级箱子。"
+				"如果你喜欢，制作铁桶也是可行的。"
+			]
+			dependencies: ["30C568C5EE8467B0"]
+			id: "7735330B322D0264"
+			tasks: [{
+				id: "7202C243F410E998"
+				type: "item"
+				title: "铁储存升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: { }
+									}
+								}
+								id: "expandedstorage:wood_to_iron_conversion_kit"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: { }
+									}
+								}
+								id: "expandedstorage:iron_chest"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: { }
+									}
+								}
+								id: "expandedstorage:iron_barrel"
+								Count: 1b
+							}
+						]
+					}
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "磨砺锋刃"
+			icon: {
+				id: "bonfires:titanite_chunk"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			x: 3.5d
+			y: -8.0d
+			subtitle: "彻底强化"
+			description: ["算上之前那2个楔形石碎片，这是完全升级一把武器所需要的的升级材料。"]
+			dependencies: ["1AFFD4A7994B202C"]
+			hide: true
+			id: "4E8F16D9F97F31C7"
+			tasks: [
+				{
+					id: "28A334DACEB3E32C"
+					type: "item"
+					item: {
+						id: "bonfires:titanite_shard"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+					count: 10L
+				}
+				{
+					id: "701D194213517C67"
+					type: "item"
+					item: {
+						id: "bonfires:large_titanite_shard"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+					count: 12L
+				}
+				{
+					id: "3A27F48480FEE8B2"
+					type: "item"
+					item: {
+						id: "bonfires:titanite_chunk"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+					count: 12L
+				}
+				{
+					id: "7DDDBFD64521E0A6"
+					type: "item"
+					item: {
+						id: "bonfires:titanite_slab"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6ECD7686674F7F58"
+				type: "random"
+				table_id: 2837347307520816851L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			subtitle: "Home sweat home"
+			description: ["制作家具工作台，现在你可以试着用各式各样的家具来装点你的小窝了。"]
+			dependencies: ["7735330B322D0264"]
+			hide: true
+			id: "29BB67AD44231192"
+			tasks: [{
+				id: "19A397ED70C78D44"
+				type: "item"
+				item: {
+					id: "furnish:furniture_workbench"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 2.5d
+			subtitle: "梦寐以求之物"
+			description: ["将龙息和其他一些珍稀材料相结合，便可制作出修补混合液，它能够&l在背包或工作台中与物品合成时完全修复物品并保留其附魔&r。"]
+			dependencies: ["3FB148801B2C62A7"]
+			hide: true
+			id: "53382182120D7063"
+			tasks: [{
+				id: "336910AA8075D9F7"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:mending_mixture"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+					}
+				}
 			}]
 		}
 	]

@@ -4,9 +4,33 @@
 	order_index: 2
 	filename: "2279E02B70D3F2BE"
 	title: "&c天灾降临"
-	icon: "minecraft:nether_star"
+	icon: {
+		id: "minecraft:nether_star"
+		Count: 1b
+		ForgeCaps: {
+			"elementalcombat:elemental_defense": {
+				elementalcombat_defense: { }
+			}
+			"elementalcombat:attack_data": {
+				elementalcombat_attack: { }
+			}
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 11.0d
+		y: -0.5d
+		width: 13.5d
+		height: 7.5d
+		rotation: 0.0d
+		image: "sac:textures/sky_sun.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+		dependency: "3BAE5A03291F2A3D"
+	}]
 	quests: [
 		{
 			title: "战争机器"

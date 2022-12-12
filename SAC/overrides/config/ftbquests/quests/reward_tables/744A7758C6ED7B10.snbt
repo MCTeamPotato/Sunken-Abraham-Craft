@@ -173,5 +173,30 @@
 			}
 			count: 5
 		}
+		{
+			title: "帮你修复物品，免费的哦！×2"
+			item: {
+				id: "enigmaticlegacy:mending_mixture"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 2
+		}
 	]
 }

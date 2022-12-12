@@ -31,6 +31,7 @@
 			description: [
 				"注意：按“史诗战斗-切换战斗/采掘模式键”(默认为r)在战斗和采掘模式之间切换，战斗模式下无法采掘方块。同时，按默认M键可以切换自动索敌模式，准备好开无双了吗？建议在第三人称或越肩视角第三人称下战斗。"
 				"学习了手上的技能书后，手持武器长按右键可以格挡，按默认R键可以进行翻滚躲避攻击。这些操作均会消耗“耐力”(右下角会显示)，若耐力消耗完了，玩家将会无法使用这些技能且会进入几秒钟的硬直状态。"
+				"如果你不喜欢本整合包默认的第一人称始终是史诗战斗动画，那么你可以打开Configured的模组列表，将史诗战斗的“动画”配置打开。"
 			]
 			dependencies: ["0E26BA162A395C9B"]
 			hide: true
@@ -110,10 +111,33 @@
 			hide: true
 			id: "29A36AAA3497285A"
 			tasks: [{
-				id: "1018F7ECF037402C"
-				type: "advancement"
-				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
-				criterion: ""
+				id: "07D504B27BF64904"
+				type: "item"
+				item: {
+					id: "mowziesmobs:wrought_axe"
+					Count: 1b
+					ForgeCaps: {
+						"bonfires:reinforce": {
+							maxLevel: 10
+							level: 0
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
 			}]
 		}
 		{

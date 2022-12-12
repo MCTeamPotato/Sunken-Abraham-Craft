@@ -27,7 +27,7 @@
 				"奖励是完全随机的，领取完之后，任务便会重置来让你继续下一次抽奖。"
 				"现在，提交泥土，完成此任务，让抽奖机开启。"
 			]
-			dependencies: ["367DB04D2C4FE595"]
+			dependencies: ["0E26BA162A395C9B"]
 			hide: true
 			id: "095084FE1689FD86"
 			tasks: [{

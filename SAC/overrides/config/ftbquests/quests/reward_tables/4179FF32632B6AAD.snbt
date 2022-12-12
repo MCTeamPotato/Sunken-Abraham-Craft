@@ -1,7 +1,7 @@
 {
 	id: "4179FF32632B6AAD"
 	order_index: 5
-	title: "单车与摩托"
+	title: "单车变摩托"
 	loot_size: 1
 	rewards: [
 		{
@@ -638,6 +638,47 @@
 				}
 			}
 			weight: 2
+		}
+		{
+			item: {
+				id: "outvoted:void_heart"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 2
+			weight: 2
+		}
+		{
+			title: "2× 修补混合物"
+			item: {
+				id: "enigmaticlegacy:mending_mixture"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: { }
+					}
+				}
+			}
+			count: 2
 		}
 	]
 }

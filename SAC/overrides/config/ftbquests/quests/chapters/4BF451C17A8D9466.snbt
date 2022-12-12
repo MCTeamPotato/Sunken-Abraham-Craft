@@ -7,6 +7,19 @@
 	icon: "cataclysm:void_core"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 10.0d
+		y: 0.0d
+		width: 13.5d
+		height: 7.5d
+		rotation: 0.0d
+		image: "sac:textures/end.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+		dependency: "0D636650A5528117"
+	}]
 	quests: [
 		{
 			title: "炼狱武士"

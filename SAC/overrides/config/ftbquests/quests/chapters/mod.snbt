@@ -39,12 +39,24 @@
 			corner: false
 			dependency: "367DB04D2C4FE595"
 		}
+		{
+			x: 5.693877551020407d
+			y: 2.4693877551020407d
+			width: 6.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "sac:textures/flying_through_mountains2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
 			title: "笔记6——秘典"
-			x: -2.5d
-			y: -0.5d
+			x: 1.0d
+			y: 3.0d
 			subtitle: "需要先完成：阅读“笔记5”"
 			description: ["秘典是储存功能性的魔法的容器，这些魔法包括但不限于读取所有附魔台中的附魔词条、加速时间流逝等，但不同的法术需要通过附魔在对应的秘典（共3本）上才能发挥作用。"]
 			dependencies: [
@@ -68,14 +80,14 @@
 		}
 		{
 			icon: "minecraft:writable_book"
-			x: -2.5d
+			x: -2.0d
 			y: -2.0d
 			subtitle: "这是你的笔记，开始阅读吧"
 			description: [
 				"身处异乡，孤独一人，真是欲哭无泪啊。但是我遇到了一只衰颓的巨龙，它似乎想要给予我一些指引。它到底想要干什么呢？不管怎样，这是我在这里唯一能与之交流的东西了，还是先珍惜吧。"
 				"（笔记会给予你提示与建议，且完成的条件都比较简单，建议好好阅读）"
 			]
-			dependencies: ["367DB04D2C4FE595"]
+			dependencies: ["0E26BA162A395C9B"]
 			hide: true
 			id: "50158DFC0EDC7EF5"
 			tasks: [{
@@ -92,7 +104,7 @@
 					Damage: 0
 				}
 			}
-			x: -0.5d
+			x: 1.0d
 			y: -2.0d
 			subtitle: "需要先完成：阅读“笔记1”"
 			description: [
@@ -234,12 +246,12 @@
 		}
 		{
 			title: "笔记3——危机四伏的世界"
-			x: 1.5d
-			y: -2.0d
+			x: 1.0d
+			y: 0.5d
 			subtitle: "需要先完成：①阅读“笔记2”；②生存 1 天"
 			description: [
 				"在这片区域度过了几天后，我逐渐发现了这里的危险之处——敌人的身手矫健又敏捷、怪物横行的堡垒要塞时有出现、各种强力的敌人也不断迫使着我升级装备。但从敌人和建筑那儿搜刮来的材料和装备确实不错，同时从一些强力的敌人身上所获得的战利品拥有着不错的相性，可以用来制造趁手的兵器。"
-				"此地的亡灵生物十分强大，不仅会自然恢复生命值，且它们对寻常的物理攻击有很大的抗性。"
+				"此地的亡灵生物十分强大，不仅会自然恢复生命值，且它们对寻常的物理攻击有很大的抗性。需要用火焰、亡灵杀手、瞬间治疗药水或圣化药水才能对它们造成比较可观的伤害。"
 			]
 			dependencies: [
 				"367DB04D2C4FE595"
@@ -255,10 +267,10 @@
 		}
 		{
 			icon: "bonfires:titanite_shard"
-			x: 1.5d
-			y: -0.5d
+			x: -2.0d
+			y: 0.5d
 			subtitle: "需要先完成：阅读“笔记3”"
-			description: ["巨龙说，在这里，强化装备的方法有很多，除了先前提到的篝火强化之外，这里还有由神秘的魔法所造就的全新附魔。而用击杀一些特殊生物获得的战利品加上一些珍稀材料，也能做成一些强化已有附魔的物品。"]
+			description: ["巨龙说，在这里，强化装备的方法有很多，除了先前提到的篝火强化之外，这里还有由神秘的魔法所造就的全新附魔。"]
 			dependencies: [
 				"367DB04D2C4FE595"
 				"34D4A4FA8A767D4C"
@@ -290,8 +302,8 @@
 					Damage: 0
 				}
 			}
-			x: -0.5d
-			y: -0.5d
+			x: -2.0d
+			y: 3.0d
 			subtitle: "需要先完成：阅读“笔记4”"
 			description: [
 				"此地的许多材料在目前阶段需要我通过探索未知区域来获得，因此我得获得或制造出一些便于旅行的装备。如&l七里靴&r、&l轻便靴子&r等。"
@@ -311,14 +323,15 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 1.0d
+			x: 4.0d
+			y: -2.0d
 			subtitle: "需要先完成：阅读“笔记6”"
 			description: [
 				"在世界各地，包括此处，都散落着许多的“饰品”。它们大多是上古魔法时代所以留下来的产物，而部分饰品在今天依然可以被铸造，佩戴它们可以进一步强化佩戴者的各项属性。"
 				"但因为一般人不能承受太强的魔法力量，我只能同时佩戴5个饰品。"
 				"除此之外，我还可以随身携带3个有特殊能力的“法器”。"
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"367DB04D2C4FE595"
 				"3CEDCE26B61075DE"
@@ -330,6 +343,44 @@
 				type: "checkmark"
 				title: "笔记7——饰品"
 				icon: "bountifulbaubles:ankh_charm"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			subtitle: "需要先完成：阅读“笔记7”"
+			description: ["用不同的生物的掉落物配上末影珍珠、末影之眼或下界之星即可制作小、中、大三种传送门，手持传送门右击方块开始袭击。怪物会从传送门中一波一波地出现，击杀它们以完成此波次。每个波次都有限时，且怪物会随着波次的增大而变强。同时，你也不能离开传送门处太远。每完成一波，传送门处都会掉出一些此生物的战利品。"]
+			dependencies: ["447F5644FB9F89F2"]
+			hide: true
+			id: "75C172D5B979C520"
+			tasks: [{
+				id: "6280C40F8C587068"
+				type: "checkmark"
+				title: "笔记8——Gatesway to Eternity"
+				icon: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:enderman_gate"
+					}
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
 			}]
 		}
 	]
