@@ -10,10 +10,15 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "sac",
-  "version": "alpha-0.0.5",
-  "author": "",
+  "name": "Sunken Abraham Craft",
+  "version": "alpha-0.0.5.2",
+  "author": "Team Potato",
   "files": [
+    {
+      "projectID": 247560,
+      "fileID": 4024011,
+      "required": true
+    },
     {
       "projectID": 529754,
       "fileID": 3683120,
