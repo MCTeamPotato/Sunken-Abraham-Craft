@@ -1,5 +1,0 @@
-{
-  "name": "灵魂合金工具",
-  "description": "事实证明$(l:conjuring:basics/soul_composite_materials#soul_alloy)灵魂合金$()能成为令人畏惧的工具，当在你将$(item)下界合金$()应用于$(l:conjuring:rituals/ritual_of_weaving)灵魂织机$()顶部时。这些实现可以实现什么以及如何改进它们在这些页面中进行了概述。$(p)为了避免操作工具时可能出现的混淆，强烈建议阅读$(l:conjuring:soul_alloy_tools/tool_safety)基本工具安全$().",
-  "icon": "conjuring:soul_alloy_sword"
-}

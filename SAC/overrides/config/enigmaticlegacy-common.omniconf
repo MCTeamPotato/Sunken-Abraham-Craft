@@ -46,7 +46,7 @@
     B:CommonPotionsEnabled=true
 
     # Whether or not Corrupted Tome should be enabled. [default: true, synchronized: yes]
-    B:CorruptedTomeEnabled=true
+    B:CorruptedTomeEnabled=false
 
     # Whether or not Enigmatic Legacy should purposefully crash client whenever any mod tries to inject unnamed LootPool into any loot table. If false, stacktraces will be printed to log but game will proceed as normal. [default: true, synchronized: no]
     B:CrashOnUnnamedPool=true
@@ -226,7 +226,7 @@
     B:SlayerEnchantmentEnabled=true
 
     # Whether or not Tattered Tome should be enabled. [default: true, synchronized: yes]
-    B:TatteredTomeEnabled=true
+    B:TatteredTomeEnabled=false
 
     # Whether or not The Acknowledgment should be enabled. [default: true, synchronized: yes]
     B:TheAcknowledgmentEnabled=true
@@ -262,10 +262,10 @@
     B:WilloftheOceanEnabled=true
 
     # Whether or not Withered Tome should be enabled. [default: true, synchronized: yes]
-    B:WitheredTomeEnabled=true
+    B:WitheredTomeEnabled=false
 
     # Whether or not Wormhole Potion should be enabled. [default: true, synchronized: yes]
-    B:WormholePotionEnabled=true
+    B:WormholePotionEnabled=false
 
     # Whether or not Wrath Enchantment should be enabled. [default: true, synchronized: yes]
     B:WrathEnchantmentEnabled=true

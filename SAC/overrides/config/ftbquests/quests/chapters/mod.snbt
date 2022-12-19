@@ -1,9 +1,9 @@
 {
 	id: "482DEE2B4065C15B"
 	group: ""
-	order_index: 4
+	order_index: 2
 	filename: "mod"
-	title: "&e不得不说的事"
+	title: "&l&e不得不说的事"
 	icon: {
 		id: "tomes:archaic_tome"
 		Count: 1b
@@ -11,7 +11,7 @@
 			Damage: 0
 		}
 	}
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	images: [
 		{

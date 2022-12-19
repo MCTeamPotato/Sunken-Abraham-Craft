@@ -1,0 +1,31 @@
+
+#Common config settings
+[common]
+	disableCrafting = false
+	#Enables wearing backpack directly from ground
+	enableBackpackBlockWearable = true
+	#Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
+	invulnerableBackpack = true
+	toolSlotsAcceptSwords = true
+	#Range: > 250
+	tanksCapacity = 4000
+	#Places backpack at place where player died
+	backpackDeathPlace = true
+	#Places backpack at place where player died, replacing all blocks that are breakable and do not have inventory (backpackDeathPlace must be true in order to work)
+	backpackForceDeathPlace = false
+	enableSleepingBagSpawnPoint = false
+	#If true, backpack can only be worn by placing it in curios 'Back' slot
+	#WARNING - Remember to TAKE OFF BACKPACK BEFORE enabling or disabling this integration!! - if not you'll lose your backpack
+	curiosIntegration = false
+	#Enables backpacks spawning in loot chests
+	enableLoot = true
+	enableBackpackAbilities = true
+	forceAbilityEnabled = false
+	#Player gets slowness effect, if carries too many backpacks in inventory
+	tooManyBackpacksSlowness = false
+	#Maximum number of backpacks, which can be carried in inventory, without slowness effect
+	#Range: 1 ~ 37
+	maxNumberOfBackpacks = 3
+	#Range: 0.1 ~ 5.0
+	slownessPerExcessedBackpack = 1.0
+

@@ -1,9 +1,9 @@
 {
 	id: "7E3AAC2ECEE9D4E3"
 	group: ""
-	order_index: 5
+	order_index: 3
 	filename: "d"
-	title: "&a抽奖(WIP)"
+	title: "&l&a抽奖(WIP)"
 	icon: {
 		id: "minecraft:potion"
 		Count: 1b
@@ -11,13 +11,14 @@
 			Potion: "minecraft:luck"
 		}
 	}
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: true
 	quests: [
 		{
 			title: "抽奖示范"
 			x: -2.5d
 			y: 4.0d
+			shape: "square"
 			subtitle: "&0&l今天的爆率那叫一个高啊！"
 			description: [
 				"怎么抽奖呢？"
@@ -406,18 +407,18 @@
 			}]
 		}
 		{
+			title: "生日快乐"
 			icon: "simplefarming:birthday_cake"
 			x: -2.5d
 			y: 0.5d
-			subtitle: "生日的时候来领取生日蛋糕吧"
-			description: ["祝你生日快乐~"]
+			subtitle: "30个MC日后来领来领取生日蛋糕吧"
 			dependencies: ["095084FE1689FD86"]
 			hide: true
 			id: "1892A54F5878BEB6"
 			tasks: [{
-				id: "1B997C646438A033"
-				type: "checkmark"
-				title: "&6&l生日快乐"
+				id: "739630E2F2F8CEC5"
+				type: "questsadditions:days"
+				days: 30
 			}]
 			rewards: [{
 				id: "5C9E038E5DFAFB08"
@@ -459,6 +460,7 @@
 				"095084FE1689FD86"
 				"68DBD8FF1A874621"
 			]
+			repeatable: true
 			id: "6823A186F755E233"
 			tasks: [{
 				id: "41C6C71217617003"
@@ -513,6 +515,7 @@
 				"095084FE1689FD86"
 				"68DBD8FF1A874621"
 			]
+			repeatable: true
 			id: "0D139F10A49B5F6A"
 			tasks: [{
 				id: "26D8B91796DA0C7E"
@@ -554,6 +557,7 @@
 			y: 2.5d
 			subtitle: "do re me fa so la ti do~"
 			dependencies: ["095084FE1689FD86"]
+			repeatable: true
 			id: "50E9956859ECFE7F"
 			tasks: [{
 				id: "298FB93857328F32"
@@ -692,9 +696,10 @@
 		{
 			title: "耐心点，每隔两个小时会给你2个抽奖币"
 			x: -6.0d
-			y: 5.0d
+			y: 5.5d
 			dependencies: ["095084FE1689FD86"]
 			hide: true
+			repeatable: true
 			id: "004EA6429E4281CB"
 			tasks: [{
 				id: "055B6743012AB0E9"

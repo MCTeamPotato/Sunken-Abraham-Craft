@@ -294,37 +294,6 @@
 		}
 		{
 			item: {
-				id: "forestcraft:mystery_scythe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-				ForgeCaps: {
-					"bonfires:reinforce": {
-						maxLevel: 10
-						level: 0
-					}
-					"elementalcombat:elemental_defense": {
-						elementalcombat_defense: { }
-					}
-					"customnpcs:itemscripteddata": { }
-					"elementalcombat:attack_data": {
-						elementalcombat_attack: {
-							"minecraft:base": {
-								style: "slash"
-								element: "normal"
-							}
-							"minecraft:enchantment": {
-								style: "slash"
-								element: "normal"
-							}
-						}
-					}
-				}
-			}
-		}
-		{
-			item: {
 				id: "forestcraft:electron"
 				Count: 1b
 				tag: {

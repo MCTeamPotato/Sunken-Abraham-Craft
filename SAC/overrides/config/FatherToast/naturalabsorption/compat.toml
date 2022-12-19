@@ -1,0 +1,11 @@
+# naturalabsorption:compat.toml
+# This config contains config options for compatibility features for various supported mods.
+
+
+# Category: tconstruct
+# Compatibility options for Tinkers Construct
+
+	# Maximum absorption gained for each level of the Absorption modifier for Tinkers Construct armor.
+	# By default, this matches Revitalizing's scaling (max health), but costs one Book of Absorption per level.
+	# <Number> Range: ≥ 0.0, Default: 1.0
+	tconstruct.modifier.potency_per_level = 1.0

@@ -1,0 +1,120 @@
+
+#Stats for each available drink type
+[drinks]
+
+	#Stats for floral
+	[drinks.floral]
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 1
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.5
+		#Level of the restful effect when drinking this tea.
+		#Heals one heart after sleeping per level
+		#Set to 0 to disable the effect.
+		#Range: 0 ~ 10
+		level = 2
+
+	#Stats for green
+	[drinks.green]
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 3
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.5
+		#Level of the relaxed effect when drinking this tea.
+		#Heals 0.5 hearts every (60 / level) seconds
+		#Set to 0 to disable the effect.
+		#Range: 0 ~ 10
+		level = 2
+
+	#Stats for black
+	[drinks.black]
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 4
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.8
+		#Time in seconds for the caffeinated effect from drinking this tea.
+		#Grants +6% movement and +5% attack speed
+		#Set to 0 to disable the effect.
+		#Range: 0 ~ 600
+		time = 210
+
+	#Stats for chai
+	[drinks.chai]
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 5
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.6
+		#Time in seconds for the invigorated effect from drinking this tea.
+		#Grants +1 attack damage and 0.5 knockback
+		#Set to 0 to disable the effect.
+		#Range: 0 ~ 600
+		time = 150
+
+	#Stats for chorus
+	[drinks.chorus]
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 3
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.9
+		#Time in seconds for the enderfalling effect from drinking this tea.
+		#Grants immunity to ender pearl damage and reduces fall damage
+		#Set to 0 to disable the effect.
+		#Range: 0 ~ 600
+		time = 150
+
+	#Stats for iced
+	[drinks.iced]
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 3
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.9
+		#Level of the absorption effect when drinking this tea.
+		#Grants 2 temporary absorption hearts per level for a short time
+		#Set to 0 to disable the effect.
+		#Range: 0 ~ 10
+		level = 1
+
+	#Stats for cocoa
+	[drinks.cocoa]
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 4
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.6
+		#If ALL, drinking cocoa clears status effects like milk
+		#If NEGATIVE, clears only negative effects (default)
+		#If NONE, does not clear effects
+		#For all values, regular cocoa clears just the first effect, while cocoa with cinnamon clears all
+		#Allowed Values: ALL, NEGATIVE, NONE
+		clear_effects = "NEGATIVE"
+
+#Options related to filling the teapot
+[teapot]
+	#If true, the teapot will not consume water source blocks when filling. It will still consume water from tank and cauldrons.
+	infinite_water = false
+	#If true, the teapot can be filled with water from a cauldron
+	fill_from_cauldron = true
+	#If true, cows can be milked using a teapot to fill it with milk
+	milk_cow = true
+
+#Options related to tea trees
+[tree]
+	#If true, tea trees generate in the world
+	generation = true
+	#Chance of leaves to regrow every random tick.
+	#Range: 0.0 ~ 1.0
+	regrow_chance = 0.05
+

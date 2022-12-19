@@ -40,7 +40,7 @@ identifier="trinkets"
 size = 5
 override = true
 visible = true
-hasCosmetic = true
+hasCosmetic = false
 [[curiosSettings]]
 identifier="belt"
 size = 0
@@ -71,7 +71,7 @@ hasCosmetic = false
 identifier="spellstone"
 size = 1
 override = true
-hasCosmetic = true
+hasCosmetic = false
  [[curiosSettings]]
 identifier="super_curio"
 size = 0

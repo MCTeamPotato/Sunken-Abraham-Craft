@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Use Anti Overlap" = true
 	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
@@ -25,16 +25,16 @@
 	"Enable Network Profiling" = false
 
 [categories]
-	Automation = false
-	Building = false
+	Automation = true
+	Building = true
 	Management = true
 	Tools = true
 	Tweaks = true
-	World = false
-	Mobs = false
-	Client = false
+	World = true
+	Mobs = true
+	Client = true
 	Oddities = true
-	Experimental = false
+	Experimental = true
 
 [automation]
 	"Chain Linkage" = true
@@ -379,7 +379,7 @@
 	"Poison Potato Usage" = true
 	"Reacharound Placing" = true
 	"Replace Scaffolding" = true
-	"Sign Editing" = true
+	"Sign Editing" = false
 	"Simple Harvest" = true
 	"Snow Golem Player Heads" = true
 	"Springy Slime" = true
@@ -501,18 +501,18 @@
 	"Big Dungeon" = true
 	"Big Stone Clusters" = true
 	Biotite = true
-	"Blossom Trees" = true
+	"Blossom Trees" = false
 	"Cave Roots" = true
 	"Chorus Vegetation" = true
 	Crevices = true
 	Deepslate = true
 	"Fairy Rings" = true
-	"Mega Caves" = true
+	"Mega Caves" = false
 	"Monster Box" = true
-	"Nether Obsidian Spikes" = true
-	"New Stone Types" = true
+	"Nether Obsidian Spikes" = false
+	"New Stone Types" = false
 	"Realistic World Gen" = true
-	Speleothems = true
+	Speleothems = false
 	"Spiral Spires" = true
 	"Underground Clay" = true
 	"Brimstone Underground Biome" = true
@@ -1944,11 +1944,11 @@
 		"Shiny Animal Chance" = 2048
 
 [oddities]
-	Backpack = true
-	Crate = true
-	Magnets = true
-	"Matrix Enchanting" = true
-	Pipes = true
+	Backpack = false
+	Crate = false
+	Magnets = false
+	"Matrix Enchanting" = false
+	Pipes = false
 	"Totem Of Holding" = true
 
 	[oddities.backpack]

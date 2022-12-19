@@ -1,0 +1,55 @@
+# naturalabsorption:health.toml
+# This config contains most options for features that apply to health (red hearts).
+# Does NOT contain any armor or enchantment options - see the 'armor_and_enchant' config for those.
+# Also contains hunger options related specifically to health recovery and healing from food.
+
+
+# Category: health
+# Options that apply to health (red hearts).
+# 
+# Note: All health amounts are in half-hearts.
+
+	# Players will respawn with up to this much health, limited by their personal max health.
+	# Set this to 0 to leave respawn health unchanged.
+	# <Number> Range: ≥ 0.0, Default: 6.0
+	health.respawn_amount = 20.0
+
+	# The maximum health a player may recover to from this mod's regeneration.
+	# This limit is ignored by potion effects. If this is set less than 0, the limit is disabled.
+	# <Number> Range: Any Value, Default: 6.0
+	health.recovery.maximum = 6.0
+
+	# The amount of time (in ticks) a player must go without taking damage before their health begins
+	# to recover (20 ticks = 1 second). If this is set less than 0, players will not naturally recover lost health
+	# from this mod.
+	# <Integer> Range: ≥ -1, Default: 40
+	health.recovery.delay = 40
+	# The amount of health regenerated each second while recovering (in half-hearts/second).
+	# This ignores the vanilla health regeneration game rule.
+	# <Number> Range: ≥ 0.0, Default: 0.25
+	health.recovery.rate = 0.25
+
+	# Players need to have at least this much hunger (in half-drumsticks) to regenerate health.
+	# <Integer> Range: ≥ 0, Default: 6
+	health.recovery.hunger_required = 6
+	# The amount of hunger drained for each health regenerated (in drumsticks/heart).
+	# Players can't lose over 1/2 drumstick per game tick or more than 5 drumsticks of hunger per recovery tick.
+	# <Number> Range: ≥ 0.0, Default: 1.0
+	health.recovery.hunger_cost = 1.0
+
+	# The maximum health a player may heal to from eating food.
+	# If this is set less than 0, the limit is disabled. Setting it to 0 effectively disables food healing.
+	# <Number> Range: Any Value, Default: -1.0
+	health.food_healing.maximum = -1.0
+
+	# The amount of health recovered for each hunger and saturation (in hearts/drumstick) granted by
+	# eaten food. Health is only granted for the hunger/saturation actually restored (no gain from over-eating).
+	# <Number> Range: ≥ 0.0, Default: 0.25
+	health.food_healing.per_hunger = 0.25
+	# <Number> Range: ≥ 0.0, Default: 0.5
+	health.food_healing.per_saturation = 0.5
+
+	# Set to true to display nutritional value on the tooltips of food items.
+	# Lists health that can be restored from eating. (See main config for hunger/saturation display.)
+	# <Boolean> Valid Values: { true, false }, Default: true
+	health.food_healing.extra_tooltip_info = true

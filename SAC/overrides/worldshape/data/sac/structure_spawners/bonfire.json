@@ -38,6 +38,6 @@
         "#mushroom"
     ],
     "dimensions": [
-        "void:vanilla"
+        "minecraft:overworld"
     ]
 }

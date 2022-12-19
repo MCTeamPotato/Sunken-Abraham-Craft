@@ -1,0 +1,30 @@
+# naturalabsorption:_main.toml
+# This config contains options that apply to the mod as a whole, including some master disable
+# toggles for convenience.
+
+
+# Category: general
+# Options for customizing the mod as a whole.
+
+	# The number of ticks between this mod's logic/recovery updates (20 ticks = 1 second).
+	# <Integer> Range: ≥ 1, Default: 5
+	general.update_time = 10
+
+	# When set to true, this mod will alter the vanilla regeneration game rule "naturalRegeneration" to
+	# be "false" by default when creating new worlds.
+	# Regardless of this config setting, you can still create a world with vanilla health regen ON or OFF
+	# by using the Game Rules button on the new world options screen or by using commands in-game.
+	# <Boolean> Valid Values: { true, false }, Default: true
+	general.default_regen_game_rule_disabled = true
+
+	# Set to true to display nutritional value on the tooltips of food items.
+	# Lists hunger and saturation that can be restored from eating. (See health config for healing display.)
+	# <Boolean> Valid Values: { true, false }, Default: true
+	general.food.extra_tooltip_info = true
+
+	# If set to 'true', disables all features in this mod related to absorption (yellow hearts).
+	# <Boolean> Valid Values: { true, false }, Default: false
+	general.disable_absorption_features = false
+	# If set to 'true', disables all features in this mod related to health (red hearts).
+	# <Boolean> Valid Values: { true, false }, Default: false
+	general.disable_health_features = false
