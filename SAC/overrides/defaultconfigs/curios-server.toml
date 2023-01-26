@@ -37,8 +37,8 @@ visible = false
  visible = false
 [[curiosSettings]]
 identifier="trinkets"
-size = 5
-override = true
+size = 6
+override = false
 visible = true
 hasCosmetic = false
 [[curiosSettings]]

@@ -5,5 +5,5 @@
 	#Remove Bad Omen effect after drinking milk?
 	"Milk Removes Bad Omen" = false
 	#Pillage Sieges occur at night?
-	"Enable Pillage Sieges" = false
+	"Enable Pillage Sieges" = true
 

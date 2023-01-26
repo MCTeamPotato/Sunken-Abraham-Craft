@@ -103,7 +103,7 @@
 		#  - ${username}: The username.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		simple_title = "Sunken Abraham Craft"
+		simple_title = "Minecraft ${mcversion}"
 		# The Minecraft window title.
 		# The current activity is not available.
 		# Variables:
@@ -113,7 +113,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		title = "Sunken Abraham Craft"
+		title = "Minecraft ${mcversion}"
 		# The Minecraft window title that also takes into account the current activity.
 		# Variables:
 		#  - ${mcversion}: The Minecraft version
@@ -123,7 +123,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion} - ${activity}"
-		title_with_activity = "Sunken Abraham Craft - ${activity}"
+		title_with_activity = "Minecraft ${mcversion} - ${activity}"
 		# Enables custom Minecraft window icons.
 		# Default: true
 		custom_icon = false
@@ -243,7 +243,7 @@
 	# - Take regular backups of your worlds.
 	# Changes to this option are applied after a game restart.
 	# Default: false
-	disable_data_fixer_upper = true
+	disable_data_fixer_upper = false
 	# A list of mixins that should not be applied.
 	# These are the mixins that are not automatically disabled when the features that depend on them are:
 	# - AbstractOption: Required for modifying the framerate limit slider step size.
@@ -281,7 +281,7 @@
 	# This option is both client and server-sided.
 	# Changes to this option are applied after a game restart.
 	# Default: []
-	mixin_blacklist = []
+	mixin_blacklist = ["ClientPlayerEntity", "ServerPlayNetHandlerKeepAlive"]
 
 	# Miscellaneous bug fixes.
 	[misc.bug_fixes]

@@ -1,0 +1,31 @@
+{
+	"mod": "eidolon",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"wraith": {
+						// Do not edit this name
+						"name": "wraith",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"necromancer": {
+						// Do not edit this name
+						"name": "necromancer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"zombie_brute": {
+						// Do not edit this name
+						"name": "zombie_brute",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

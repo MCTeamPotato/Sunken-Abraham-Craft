@@ -1,7 +1,7 @@
 
 #Common config settings
 [common]
-	disableCrafting = false
+	disableCrafting = true
 	#Enables wearing backpack directly from ground
 	enableBackpackBlockWearable = true
 	#Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
@@ -22,10 +22,10 @@
 	enableBackpackAbilities = true
 	forceAbilityEnabled = false
 	#Player gets slowness effect, if carries too many backpacks in inventory
-	tooManyBackpacksSlowness = false
+	tooManyBackpacksSlowness = true
 	#Maximum number of backpacks, which can be carried in inventory, without slowness effect
 	#Range: 1 ~ 37
-	maxNumberOfBackpacks = 3
+	maxNumberOfBackpacks = 1
 	#Range: 0.1 ~ 5.0
-	slownessPerExcessedBackpack = 1.0
+	slownessPerExcessedBackpack = 2.0
 

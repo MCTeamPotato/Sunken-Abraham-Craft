@@ -7,5 +7,5 @@ defaultStyle = "slash"
 maxFactor = 120
 #Scaling for (style) protection enchantments. See vanilla Enchantment Protection Factor.
 #Range: 1 ~ 15
-enchantmentScaling = 5
+enchantmentScaling = 1
 

@@ -4,9 +4,9 @@
 	#This will affect all Wildfire spawns (natural + spawner)
 	"Natural Spawning" = true
 	#Range: 1 ~ 100
-	"Wildfire Spawn Weight" = 1
+	"Wildfire Spawn Weight" = 3
 	#Range: 1.0 ~ Infinity
-	"Max Health" = 50.0
+	"Max Health" = 80.0
 	#Blue coloration to *both* Blazes and Wildfires in Soul Sand Valleys. Disabled by default to keep it vanilla. Does not affect Wildfire Helmet textures
 	"Biome Variants" = false
 	#Restrict Wildfires to spawn only in Nether Wastes or not
@@ -24,7 +24,7 @@
 		#Range: 1.0 ~ 89.0
 		"Fireball Max Depression" = 50.0
 		#Determines whether Wildfire Fireball should explode
-		Explode = false
+		Explode = true
 		#Sets Wildfire Fireball explosion radius
 		#Range: 0.1 ~ 4.0
 		"Explosion Radius" = 0.5
@@ -33,14 +33,14 @@
 [hunger]
 	"Natural Spawning" = true
 	#Range: 1 ~ 100
-	"Spawn Weight" = 3
+	"Spawn Weight" = 8
 	#Range: 1.0 ~ Infinity
 	"Max Health" = 50.0
 	"Maximum Stored Enchantments" = 5
 
 #Monster of the Ocean Depths
 [kraken]
-	"Natural Spawning" = true
+	"Natural Spawning" = false
 	#Range: 1 ~ 100
 	"Spawn Weight" = 2
 	#Range: 1.0 ~ Infinity

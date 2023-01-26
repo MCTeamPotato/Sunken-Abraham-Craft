@@ -1,0 +1,19 @@
+{
+	"mod": "livingchest",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"chester": {
+						// Do not edit this name
+						"name": "chester",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			}
+		}
+	}
+}

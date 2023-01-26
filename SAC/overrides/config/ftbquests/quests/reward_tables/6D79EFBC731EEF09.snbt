@@ -42,9 +42,6 @@
 					"elementalcombat:elemental_defense": {
 						elementalcombat_defense: { }
 					}
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
 					"elementalcombat:attack_data": {
 						elementalcombat_attack: {
 							"minecraft:base": {
@@ -128,6 +125,31 @@
 					}
 					"elementalcombat:attack_data": {
 						elementalcombat_attack: { }
+					}
+				}
+			}
+			count: 3
+		}
+		{
+			title: "大大的黑沉沉碎片×3"
+			item: {
+				id: "bonfires:titanite_chunk"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
 					}
 				}
 			}

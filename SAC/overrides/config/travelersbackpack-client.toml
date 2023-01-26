@@ -12,7 +12,7 @@
 	#Render tools in tool slots on the backpack, while worn
 	renderTools = true
 	#Render backpack if elytra is present
-	renderBackpackWithElytra = true
+	renderBackpackWithElytra = false
 	#Disable backpack rendering
 	disableBackpackRender = false
 

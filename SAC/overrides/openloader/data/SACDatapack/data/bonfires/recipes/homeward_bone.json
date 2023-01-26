@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-      " a ",
+      "cac",
       "aba",
-      " a "
+      "cac"
     ],
     "key": {
       "a": {
@@ -11,6 +11,9 @@
       },
       "b":{
         "item": "minecraft:ender_pearl"
+      },
+      "c":{
+        "item": "bonfires:ash_pile"
       }
     },
     "result": {

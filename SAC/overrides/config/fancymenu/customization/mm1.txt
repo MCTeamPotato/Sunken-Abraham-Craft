@@ -1,0 +1,98 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = true
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = sac_mainmenu_animation
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 243
+  width = 189
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 859f2c05-3c10-4a88-a54d-758f9356edd71674296066719
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 81
+  action = deep_customization_element:title_screen_branding
+  actionid = f3fb3611-e851-4532-b1fb-cfc5617363b31674296066738
+  y = 318
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 509
+  width = 165
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 10f6a6f5-e5ee-4a51-bce5-63e250ea3fe01674296066738
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 440
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 2a666387-776d-4055-b3e2-59dc4382ff331674296066741
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 200
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 720f17d4-01eb-47ea-96a0-c95c55d915b71674296066742
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 95d5b63e-110d-4864-8b20-0ecd2c29ebe21674296066742
+  y = 0
+  height = 30
+}
+

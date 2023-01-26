@@ -6,5 +6,5 @@
 "Estus Flask Heal Per Level" = 1.0
 #Set the amount to increase damage for reinforced tools per level, default:0.5
 #Range: 0.0 ~ 1.7976931348623157E308
-"Reinforce Damage Per Level" = 1.0
+"Reinforce Damage Per Level" = 1
 

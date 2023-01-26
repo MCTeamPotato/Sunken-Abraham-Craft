@@ -5,13 +5,13 @@
 
 		["ForestCraft Configuration".config.forestcraft]
 			#No comment
-			beehive = true
+			beehive = false
 			#No comment
-			deep_rock = true
+			deep_rock = false
 			#No comment
 			crystal_biome = true
 			#No comment
-			dogs = true
+			dogs = false
 			#No comment
 			blueberry = true
 			#No comment
@@ -19,13 +19,13 @@
 			#No comment
 			spore_mush = true
 			#No comment
-			ancient_temples = true
+			ancient_temples = false
 			#No comment
 			snowberry = true
 			#No comment
 			fossil = true
 			#No comment
-			bones = true
+			bones = false
 			#No comment
 			light_bulbs = true
 			#No comment
@@ -35,7 +35,7 @@
 			#No comment
 			dandelion_fields = true
 			#No comment
-			iguana_king_nests = true
+			iguana_king_nests = false
 			#No comment
 			crocus_flowers = true
 			#No comment
@@ -57,7 +57,7 @@
 			#No comment
 			thunder_birds = true
 			#No comment
-			terror_birds = true
+			terror_birds = false
 			#No comment
 			spore_zombie = true
 			#No comment
@@ -79,9 +79,9 @@
 			#No comment
 			changeling_random = true
 			#No comment
-			squid_bucket = true
+			squid_bucket = false
 			#No comment
-			bossbars = false
+			bossbars = true
 			#No comment
 			flint_and_steel = false
 			#No comment
@@ -97,7 +97,7 @@
 			#No comment
 			screen_shake = true
 			#No comment
-			difficulty_scale = false
+			difficulty_scale = true
 			#No comment
 			#Range: 1 ~ 100
 			desert_bones_rarity = 13

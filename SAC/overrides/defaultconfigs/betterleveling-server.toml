@@ -1,0 +1,12 @@
+
+["Better Leveling Server Configuration"]
+	#If all progress should be lost on death
+	"Reset on death" = false
+	#If bound machines should be usable only by their owners
+	"Lock bound machines" = false
+	#How much levels the player needs before choosing his first specialization
+	#Range: > 0
+	"First specialization cost" = 30
+	#Other mods with the same feature might be incompatible (spawn too much loot, not spawning bonus loot from skills...)
+	"Simple Harvest" = true
+

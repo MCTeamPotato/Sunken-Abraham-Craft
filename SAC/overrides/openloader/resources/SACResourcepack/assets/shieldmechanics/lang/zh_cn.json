@@ -1,0 +1,12 @@
+{
+    "enchantment.shieldmechanics.block_damage_enchant": "铁壁",
+    "enchantment.shieldmechanics.block_damage_enchant.desc": "增加可阻挡的伤害量",
+    "enchantment.shieldmechanics.block_knock_back_enchant": "震退",
+    "enchantment.shieldmechanics.block_knock_back_enchant.desc": "举盾时有几率击退攻击者",
+    "enchantment.shieldmechanics.block_slowness_enchant": "减速",
+    "enchantment.shieldmechanics.block_slowness_enchant.desc": "举盾时有几率使攻击者减速",
+    "enchantment.shieldmechanics.block_blind_enchant": "致盲",
+    "enchantment.shieldmechanics.block_blind_enchant.desc": "举盾时有几率致盲攻击者",
+    "enchantment.shieldmechanics.block_last_resort_enchant": "后手",
+    "enchantment.shieldmechanics.block_last_resort_enchant.desc": "低生命值举盾时有概率救你一命"
+  }

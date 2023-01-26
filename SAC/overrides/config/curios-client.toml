@@ -2,7 +2,7 @@
 #Client only settings, mostly things related to rendering
 [client]
 	#Set to true to enable rendering curios
-	renderCurios = true
+	renderCurios = false
 	#The X-Offset for the Curios GUI button
 	#Range: -100 ~ 100
 	buttonXOffset = 0
@@ -17,5 +17,5 @@
 	creativeButtonYOffset = 0
 	#The corner for the Curios GUI button
 	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
-	buttonCorner = "TOP_LEFT"
+	buttonCorner = "BOTTOM_LEFT"
 

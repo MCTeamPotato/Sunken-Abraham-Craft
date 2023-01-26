@@ -905,5 +905,14 @@
 			}
 			weight: 3
 		}
+		{
+			xp: 128
+			type: "xp"
+			weight: 2
+		}
+		{
+			xp: 256
+			type: "xp"
+		}
 	]
 }

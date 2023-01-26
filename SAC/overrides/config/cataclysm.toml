@@ -2,10 +2,10 @@
 [Etc]
 	#Void Rune's Damage
 	#Range: 0 ~ 1000000
-	Voidrunedamage = 28
+	Voidrunedamage = 42
 	#Lava bomb's Radius
 	#Range: 1 ~ 7
-	Lavabombradius = 3
+	Lavabombradius = 7
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
 	#BossMusic(on/off)
@@ -14,13 +14,13 @@
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianHealthMultiplier = 1.0
+	EnderGuardianHealthMultiplier = 5.0
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageMultiplier = 4.2
+	EnderGuardianDamageMultiplier = 6.0
 	#EnderGuardian's DamageCap
 	#Range: 0 ~ 1000000
-	EnderGuardianDamageCap = 22
+	EnderGuardianDamageCap = 50
 	#Ender guardian's block breaking ignore the MobGriefing
 	EnderguardianBlockBreaking = true
 	#ruined citadel spawn
@@ -47,13 +47,13 @@
 	Lavabombamount = 3
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 1.0
+	MonstrosityHealthMultiplier = 5.0
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 4.2
+	MonstrosityDamageMultiplier = 6.0
 	#Monstrosity's DamageCap
 	#Range: 0 ~ 1000000
-	MonstrosityDamageCap = 22
+	MonstrosityDamageCap = 50
 	#soul black smith spawn
 	SoulblacksmithSpawn = true
 	#Monstrosity's bodyBlocking verdict
@@ -78,10 +78,10 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 1.0
+	IgnisHealthMultiplier = 8.0
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 4.2
+	IgnisDamageMultiplier = 6.0
 	#Ignis's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Ignis's prevent attacks from far away Range" = 5.0
@@ -89,7 +89,7 @@
 	BurningArenaSpawn = true
 	#Ignis's DamageCap
 	#Range: 0 ~ 1000000
-	IgnisDamageCap = 20
+	IgnisDamageCap = 50
 	#Ignis's cracked block breaking ignore the MobGriefing
 	IgnisBlockBreaking = true
 

@@ -12,7 +12,7 @@
 #Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
 [enchantment_compatibility]
 	#A looting enchantment for bows and crossbows.
-	"Plundering Enchantment" = true
+	"Plundering Enchantment" = false
 	#Additional enchantments to be made usable with swords.
 	"Sword Enchantments" = ["minecraft:impaling"]
 	#Additional enchantments to be made usable with axes.
@@ -48,7 +48,7 @@
 	#Infinity enchantment no longer requires a single arrow to be present in the player inventory.
 	"True Infinity" = true
 	#Disables damage immunity when hit by a projectile. Makes it possible for entities to be hit by multiple projectiles at once.
-	"No Projectile Immunity" = true
+	"No Projectile Immunity" = false
 	#Is the sweeping edge enchantment required to perform a sweep attack.
 	"Require Sweeping Edge" = false
 	#Makes the impaling enchantment apply to any creature in contact with rain or water.

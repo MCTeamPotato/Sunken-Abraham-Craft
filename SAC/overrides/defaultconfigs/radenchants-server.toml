@@ -2,7 +2,7 @@
 [Enchantments]
 
 	[Enchantments."Life Leech"]
-		Enabled = true
+		Enabled = false
 		#Treasure enchantments cannot be obtained through the enchanting table
 		Treasure = false
 		#Can generate as loot
@@ -68,7 +68,7 @@
 		#Treasure enchantments cannot be obtained through the enchanting table
 		Treasure = true
 		#Can generate as loot
-		Loot = true
+		Loot = false
 		#Can be enchanted onto a Book at an Enchanting Table
 		"Enchant on Books" = false
 		#Can appear in Villager Trades
@@ -77,15 +77,15 @@
 		"Incompatible Enchants" = ["minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods"]
 		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
 		#Range: 1 ~ 10
-		"Max Level" = 1
+		"Max Level" = 5
 		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
 		Rarity = "VERY_RARE"
 		#Range: 1 ~ 100
-		"Max Stacks per Level" = 100
+		"Max Stacks per Level" = 20
 		#Range: 0.0 ~ 100.0
-		"Damage Taken Bonus per Stack" = 0.01
+		"Damage Taken Bonus per Stack" = 3
 		#Range: 0.0 ~ 100.0
-		"Damage Dealt Bonus per Stack" = 0.01
+		"Damage Dealt Bonus per Stack" = 1
 
 	[Enchantments.Barbs]
 		Enabled = true

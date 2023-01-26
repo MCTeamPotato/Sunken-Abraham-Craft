@@ -1,0 +1,79 @@
+{
+	"mod": "illagers_plus",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"illager_general": {
+						// Do not edit this name
+						"name": "illager_general",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"furantur": {
+						// Do not edit this name
+						"name": "furantur",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"berserker": {
+						// Do not edit this name
+						"name": "berserker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"necromancer": {
+						// Do not edit this name
+						"name": "necromancer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"hoarder": {
+						// Do not edit this name
+						"name": "hoarder",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"archer": {
+						// Do not edit this name
+						"name": "archer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"black_iron_golem": {
+						// Do not edit this name
+						"name": "black_iron_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"enchanter": {
+						// Do not edit this name
+						"name": "enchanter",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"frostmancer": {
+						// Do not edit this name
+						"name": "frostmancer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"miner": {
+						// Do not edit this name
+						"name": "miner",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"illager_king": {
+						// Do not edit this name
+						"name": "illager_king",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

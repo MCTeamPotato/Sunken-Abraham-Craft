@@ -12,12 +12,12 @@
 	# Players will respawn with up to this much health, limited by their personal max health.
 	# Set this to 0 to leave respawn health unchanged.
 	# <Number> Range: ≥ 0.0, Default: 6.0
-	health.respawn_amount = 20.0
+	health.respawn_amount = 0.0
 
 	# The maximum health a player may recover to from this mod's regeneration.
 	# This limit is ignored by potion effects. If this is set less than 0, the limit is disabled.
 	# <Number> Range: Any Value, Default: 6.0
-	health.recovery.maximum = 6.0
+	health.recovery.maximum = 0.0
 
 	# The amount of time (in ticks) a player must go without taking damage before their health begins
 	# to recover (20 ticks = 1 second). If this is set less than 0, players will not naturally recover lost health
@@ -52,4 +52,4 @@
 	# Set to true to display nutritional value on the tooltips of food items.
 	# Lists health that can be restored from eating. (See main config for hunger/saturation display.)
 	# <Boolean> Valid Values: { true, false }, Default: true
-	health.food_healing.extra_tooltip_info = true
+	health.food_healing.extra_tooltip_info = false

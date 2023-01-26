@@ -1,10 +1,10 @@
 {
-    "attributes": {
-        "common": {
-            "armor_negation": 0.0,
-            "max_strikes": 0,
-            "impact": 2.0
-        }
-    },
-    "type": "shield"
+	"type": "shield",
+	"attributes": {
+		"common": {
+			"armor_negation": 0.0,
+  			"impact": 1.0,
+			"max_strikes": 0.0
+		}
+	}
 }

@@ -116,9 +116,9 @@
 	#Settings related to tools. Only tool, sword and trident items can be affected, anything else will be skipped.
 	[items.tools]
 		#Sets the attack damage.
-		attack_damage = ["kubejs:bamboo_staff;6", "cataclysm:the_incinerator;28", "cataclysm:gauntlet_of_guard;28"]
+		attack_damage = ["kubejs:bamboo_staff;6", "cataclysm:the_incinerator;28", "cataclysm:gauntlet_of_guard;28", "kubejs:sin_scythe;12", "kebejs:sam;12"]
 		#Sets the attack speed.
-		attack_speed = ["kubejs:bamboo_staff;3", "cataclysm:the_incinerator;1.4", "cataclysm:gauntlet_of_guard;3"]
+		attack_speed = ["kubejs:bamboo_staff;3", "cataclysm:the_incinerator;1.4", "cataclysm:gauntlet_of_guard;3", "kubejs:sin_scythe;2.1", "kubejs:sam;2.2"]
 		#Sets the tool harvest level. Does not work for swords and tridents.
 		harvest_level = []
 		#Sets the efficiency. Does not work for swords and tridents.

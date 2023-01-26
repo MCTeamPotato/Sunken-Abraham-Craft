@@ -1,0 +1,60 @@
+{
+	"mod": "rankine",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"beaver": {
+						// Do not edit this name
+						"name": "beaver",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"diamond_mantle_golem": {
+						// Do not edit this name
+						"name": "diamond_mantle_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"peridot_mantle_golem": {
+						// Do not edit this name
+						"name": "peridot_mantle_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"demonyte": {
+						// Do not edit this name
+						"name": "demonyte",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"desmoxyte": {
+						// Do not edit this name
+						"name": "desmoxyte",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"dragonyte": {
+						// Do not edit this name
+						"name": "dragonyte",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"mantle_golem": {
+						// Do not edit this name
+						"name": "mantle_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

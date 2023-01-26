@@ -195,33 +195,6 @@
 		}
 		{
 			item: {
-				id: "nameless_trinkets:experience_battery"
-				Count: 1b
-				ForgeCaps: {
-					"elementalcombat:elemental_defense": {
-						elementalcombat_defense: { }
-					}
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-					"elementalcombat:attack_data": {
-						elementalcombat_attack: {
-							"minecraft:base": {
-								style: "slash"
-								element: "normal"
-							}
-							"minecraft:enchantment": {
-								style: "slash"
-								element: "normal"
-							}
-						}
-					}
-				}
-			}
-			weight: 4
-		}
-		{
-			item: {
 				id: "nameless_trinkets:ice_cube"
 				Count: 1b
 				ForgeCaps: {
@@ -673,7 +646,6 @@
 					"elementalcombat:elemental_defense": {
 						elementalcombat_defense: { }
 					}
-					"customnpcs:itemscripteddata": { }
 					"elementalcombat:attack_data": {
 						elementalcombat_attack: {
 							"minecraft:base": {
@@ -688,7 +660,7 @@
 					}
 				}
 			}
-			weight: 4
+			weight: 3
 		}
 		{
 			item: {
@@ -734,7 +706,7 @@
 					}
 				}
 			}
-			weight: 4
+			weight: 3
 		}
 		{
 			item: {
@@ -765,7 +737,6 @@
 					"elementalcombat:elemental_defense": {
 						elementalcombat_defense: { }
 					}
-					"customnpcs:itemscripteddata": { }
 					"elementalcombat:attack_data": {
 						elementalcombat_attack: {
 							"minecraft:base": {
@@ -780,7 +751,40 @@
 					}
 				}
 			}
-			weight: 4
+			weight: 3
+		}
+		{
+			xp: 128
+			type: "xp"
+			weight: 2
+		}
+		{
+			xp: 256
+			type: "xp"
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:unwitnessed_amulet"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			weight: 3
 		}
 	]
 }

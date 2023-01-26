@@ -1,0 +1,39 @@
+Version: 1
+ModpackName: "Sunken Abraham Craft"
+Overworld:
+  PresetFolderName: "VanillaVistas"
+Settings:
+  GenerateStructures: true
+  BonusChest: false
+GameRules:
+  DoFireTick: true
+  MobGriefing: true
+  KeepInventory: false
+  DoMobSpawning: true
+  DoMobLoot: true
+  DoTileDrops: true
+  DoEntityDrops: true
+  CommandBlockOutput: true
+  NaturalRegeneration: true
+  DoDaylightCycle: true
+  LogAdminCommands: true
+  ShowDeathMessages: true
+  RandomTickSpeed: 3
+  SendCommandFeedback: true
+  SpectatorsGenerateChunks: true
+  SpawnRadius: 10
+  DisableElytraMovementCheck: false
+  MaxEntityCramming: 24
+  DoWeatherCycle: true
+  DoLimitedCrafting: false
+  MaxCommandChainLength: 65536
+  AnnounceAdvancements: true
+  DisableRaids: false
+  DoInsomnia: true
+  DrowningDamage: true
+  FallDamage: true
+  FireDamage: true
+  DoPatrolSpawning: true
+  DoTraderSpawning: true
+  ForgiveDeadPlayers: true
+  UniversalAnger: false

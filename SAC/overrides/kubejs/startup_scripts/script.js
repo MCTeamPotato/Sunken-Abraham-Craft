@@ -10,4 +10,6 @@ onEvent('item.registry', event => {
 				ctx.player.tell('饰品获得了新的槽位')
 			})
 		})
+    event.create('sin_scythe').type('sword').tier('diamond')//怆的镰刀
+	event.create('sam').type('sword').tier('diamond')//村正
 })

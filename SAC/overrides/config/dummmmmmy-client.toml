@@ -10,7 +10,7 @@
 	dynamicDPS = true
 	#Skin used by the dummy
 	#Allowed Values: DEFAULT, ORIGINAL, DUNGEONS, ALTERNATIVE
-	texture = "DEFAULT"
+	texture = "ALTERNATIVE"
 
 	[visuals.damage_number_colors]
 		#hex color for various damage sources

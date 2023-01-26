@@ -3,7 +3,7 @@
 [general]
 	#Levels required/consumed per reroll in an Enchantment Table.
 	#Range: > 0
-	levels_per_reroll = 1
+	levels_per_reroll = 0
 	#Lapis Lazuli required/consumed per reroll in an Enchantment Table.
 	#Range: > 0
 	lapis_per_reroll = 3

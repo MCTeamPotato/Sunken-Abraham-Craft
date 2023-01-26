@@ -20,7 +20,7 @@
 	# Set to true to display nutritional value on the tooltips of food items.
 	# Lists hunger and saturation that can be restored from eating. (See health config for healing display.)
 	# <Boolean> Valid Values: { true, false }, Default: true
-	general.food.extra_tooltip_info = true
+	general.food.extra_tooltip_info = false
 
 	# If set to 'true', disables all features in this mod related to absorption (yellow hearts).
 	# <Boolean> Valid Values: { true, false }, Default: false

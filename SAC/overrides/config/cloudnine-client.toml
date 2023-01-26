@@ -1,0 +1,10 @@
+
+[cloudnine]
+
+	[cloudnine.config]
+
+		[cloudnine.config.cloudOffset]
+			#Set the offset from the clouds default height of 128
+			#Range: -196 ~ 192
+			value = -196
+

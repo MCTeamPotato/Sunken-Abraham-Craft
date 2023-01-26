@@ -1,0 +1,6 @@
+A neutral mob that|
+spawns on Pearlstone blocks|
+if they are deep enough|
+underground. Able to deliver a lot|
+of problems to those who|
+decide to attack him.

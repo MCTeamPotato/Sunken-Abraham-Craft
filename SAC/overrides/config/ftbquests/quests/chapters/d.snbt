@@ -93,7 +93,7 @@
 			icon: "minecraft:oak_log"
 			x: 1.0d
 			y: 4.0d
-			subtitle: "好多的木头！"
+			subtitle: "砍树是要你变强，不是要你变成光头强"
 			hide_dependency_lines: true
 			dependencies: ["095084FE1689FD86"]
 			repeatable: true
@@ -420,34 +420,334 @@
 				type: "questsadditions:days"
 				days: 30
 			}]
-			rewards: [{
-				id: "5C9E038E5DFAFB08"
-				type: "item"
-				item: {
-					id: "simplefarming:birthday_cake"
-					Count: 1b
-					ForgeCaps: {
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: {
-								"minecraft:base": {
-									style: "slash"
-									element: "normal"
-								}
-								"minecraft:enchantment": {
-									style: "slash"
-									element: "normal"
+			rewards: [
+				{
+					id: "5C9E038E5DFAFB08"
+					type: "item"
+					item: {
+						id: "simplefarming:birthday_cake"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
 								}
 							}
 						}
 					}
 				}
-			}]
+				{
+					id: "13F0E93B9EAED5A4"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									817045569
+									1613776984
+									-1200609084
+									-170685205
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3MjA5OTc2MzI1MywKICAicHJvZmlsZUlkIiA6ICIzMGIzMjA0MTYwMzA0ODU4Yjg3MDI4YzRmNWQzOGNlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKaWFuQmlfMjMzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VkNDg5Y2Y5YTE4MmFiN2ZkMjgwY2JkZjAyN2FhNDA5NTAxY2NlYjFkODNhNjliMjgwZmFlNzJlNDczZjNmM2EiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ=="
+										Signature: "Jkz5/D/gVfrWlOyzwBEqsRDntmG4KfQzsuaJMDbg4Se9pn5BDTLTYthU8DZGS5CjxrHVVLq3gerJHp7hMOC3J/afT8PNAGEQo4KtLIw0yN3IHS3qu2zozRNx8yDDbTRztpjjeD2P6f8783qCYQIrOmsPvGy5WsT360Kcd7b1VuZxXnisKVUMaZ1VNmHYls2rxhxWPHLz6F/xXIQ0lema6qENEZF4Hyha9ho88LLROkFsYtA0sNrczBnn+c0orArn+h5x/XkntAyRlx3/VTi9F2X+LHSn4mqlPgas1XkpR6aqqz8JApaCGp5eFmr5azVtlway4Zq+ifSU3+AMWW11Sxgl4KFsUUo8GeraWE6BLveYdsAJwAwwMXKVqJaMHncBdNRAZ2/AGsvMPHMD6GrVsrtvst6uUVQLlyw5Mj/aYuw8UNum0vZmEZMyqaepLTCfnA/YxWuhijKfBzF78RvwUsGh6aTA4bGi4iCtVoE9to2VFaajwFOXdj/6bZs1qOjoyl4By/kQqzSsRfgmuoss+S99FgcownvxHMW8qq5Uf3VFulYe+gNeAegSiHN8n0meadZFdCAmuo4avGQhjaHffHMPPd7foYjzPW88sIrIiGp9vjOhysSgu0/JJ+OFQIEhd2wx13jXG1ORViH2MXVoD9OfS0M8Azqnwt2UtWGWI70="
+									}]
+								}
+								Name: "JianBi_233"
+							}
+						}
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "702E12C18F5D163B"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1475165336
+									-1730982820
+									-1673059680
+									-1539686348
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3MjA5OTc2MzUzMSwKICAicHJvZmlsZUlkIiA6ICJhODEyYzM2ODk4ZDM0YzVjOWM0NzIyYTBhNDNhNDAzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfS2FzdWFsaXhfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY2M2VhOGIxZjM5ZmI3ZWM2MTc0ZmVmNDM2ODcxYzRhNDhkNjFiOTJiZDk5MWQ5ZWM3MjhmZjQ1OGE3YzZjMGEiCiAgICB9CiAgfQp9"
+										Signature: "RqNi6qk7n8sykRQOXnP9nthhO5W9lgVK/HeF2ian1CnC4Qu5CiJucu2df20KAovajcE+23MKq9j4b/RN3+5P6zVMCdf+zBT5P2uZ2xu1Cn/BlC/5DrRUzkb3hHp36o5ajvCxU1K3Dn1Hj2UhBQw8vAEEQMjbQvjUFJKdZuZy+BkY6nBr4Z9e+xhc6cNDMXB7G7JbeY48FKSXkwCWZAlO4WoyUCPZITt7jQJm4gKh9OSciVc/ovdtKVBYWC84lEsPTqourSGfjh8SD6YMAor/VxejUcxXlxHgGOxUiOJts1+R0lOVLAfOtfQs0qiqKaYoeHiainqYjBw30k45j8US1C1Agq2NzjNfi5oGv+Bgfw+h3+7ANCuyqq9GVQKWOmr9StBfkohScbVK+nxGddBd0wPGKUWJbDxu2H5al6uAzqyiwfiYeaa3ksaap4jWLIeG4YBdxzie3A2Oq1gAEqUNyKUJ63Uh9p/dpLJYFw/mptguhJViKoRIJKup39gKwDvt5TTGJuKV206NuLMDvvlgKEOAOKcS+TCt/oDtrKjGWVWx5nQvUCpysoaotQSC+Pwwc+PWo20+imHxs4iZxCj+0IZD7Nv0xVTx9UtkT2nUQi9w6rn1aGRexuWK4ai1NaeRZRnVI6eTz4apZlAXZeH6IJrARVe/PqlZx5TOlnl1xNg="
+									}]
+								}
+								Name: "_Kasualix_"
+							}
+						}
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "04D4ED5C5AC83153"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							SkullOwner: {
+								Id: [I;
+									973382078
+									1013598359
+									-1248944705
+									1551629384
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3MjEwMTAzMDA2MiwKICAicHJvZmlsZUlkIiA6ICIzYTA0YTFiZTNjNmE0ODk3YjU4ZTlkYmY1YzdiZmM0OCIsCiAgInByb2ZpbGVOYW1lIiA6ICIxR292b3J5bjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQ2MTQ1OTAxZmUxYzU2OTcwYmI5YTY2MThhMjk0N2QwNzNhNDY5Y2MxYzliNzlmODY0MTc2ZTk4OGIzN2M3YSIKICAgIH0KICB9Cn0="
+										Signature: "pyFHtTka7OioGkzMIm6bMrIlfEwq54HCbwHSqaq/dO8/a+iJ3MGPNzJAs4tRkQfmRPR/V4+AqDR8VeWMfCqh0jkx/QeFu3Z3cxnqPfoo7iAjMTX4XgQJkNnc5MhqgZV/8Bg7DNjlLGvr+QaoRafPyI4MkoFfQk4HWs3KRVCH06g0CszmitKWGrvic5K5gBfBBxLSmOp9Wn3usT7aRkencWI+tF6DDwXhGGqV2kqsgNuq4Y/9VzsWDx5eSwGCw3SV21YZTd8jeGFdw0zuVFpF9c2w8Tnh5edvZdtTQ9eHMQJYnXuwoINp9dkZV9fiBWEpwvb+d81nbMatmPs77zz0ywQF7WrYuO5Eu86IXthKoj4C+aBHJ3ysBKRpGe50sZgh1gRKFUvrFcmk84cRVT1S7ZkAaorntv0r1L4G6fVg0Ff8bBe+X0lJ7dsnSyyaTnFyn4p1SjTKG/hQkXpuQiCaYaDDjta5/8uS7aZuQKYwhCcYKFH/5pZHNqOiUQGX7Ha4pjy3ZqqBEpdroe9R4Vs1W3n/ltSgXq2totQrip1ouCZsvtciaNoqh95ujgnUh5Bx9wAFWxnKYWUFSXksmYYt9OfM/1q8v+pRxTJeb2SRimvonp25DqjRwPjIMcFWrqlPqKS9x+mIKXq4U1ZKaCzW0hldXC8qfVlFctniepVzwWc="
+									}]
+								}
+								Name: "1Govoryn1"
+							}
+							display: {
+								Name: "{\"text\":\"Rinko1231的头\"}"
+							}
+						}
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "0AC1BC9FDCD86790"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1672805589
+									-1780068868
+									-1094985368
+									-1926514049
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3MjA5OTc2MDkzNiwKICAicHJvZmlsZUlkIiA6ICI5YzRiMDMyYjk1ZTY0ZGZjYmViYmQ5Njg4ZDJiYmE3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBd2VpX05UIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QxNzY0YzIxN2RjNThkN2NlOWM4YTVhMmM5ZDAwNjQ0Nzc4NmJiNDBhYTQ5MDc4ZDRmODkzMzNhYmUzYmE3YTQiCiAgICB9CiAgfQp9"
+										Signature: "hLy8ve0F5Lj+l0j8OYg/Dzal2hpGbwcaCIK9BaAQ8BDR3PoG5675zaC9SZdcUWR2jbVdfXiXfK9YgLK43T2i/Z1Cj1qW1ug6SMtG2RzWIeqxOWGFWKRx3pbwYSdibR+Yglh8iau5fNWLpBs8QuqSXnAebyt9oz/0WpLgGv0ZTDipby7FBQ5gycAUZmFuLwVqST2/sdLQG8N/46VScWhokn8dd6+JfJ/e1w2r18N27UMKtWKtxve5wE6CffFKL0YFaoU3uJUOtmiRrIUHfKy8RkC8KUpJU2olFzxW1lLidv3AWTVXDL7ezwlHp56USqwKdEDAq4tfaoBlmQ5LhFxjFvZ5ZgRRhHnB5zUzbwg2brNu+EY4c70+a0YJCIoCQWV6uUcr/jU/9KwIU0lpSo802iQuXYV15N+oMRsuf7SKTysPkWcgvG1XXnNZFPkrqh9EGUt5AOCGZ/6jEqm8+A/u/u+zEqfHbF0+O872VPELvFrUXRiWesTN7efaCLnHm5ivJ8/SKJ6uzfN2YVbgeq7Duqi5WyEU4mcjRx3OzQhtM5M7CKxn/5hE4blShiYyLjlzIsn13LqTz53fl8iQQ9bFZjGicmeULxkKMnZibcUOOIkA42u/+l8eQmRbkZPtAFjtnEHcegz7vdQbg+TDhDgSsApso+5E4kF+7H9+MN36pO8="
+									}]
+								}
+								Name: "Awei_NT"
+							}
+						}
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "6FA3A25B87764D6B"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-18116800
+									-750827161
+									-1245931936
+									-1028009919
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3MjA5OTc2MDYyNSwKICAicHJvZmlsZUlkIiA6ICJmZWViOGY0MGQzM2Y0OTY3YjViYzk2NjBjMmI5ZDA0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGZW5nQ2h1YW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM1NGIwMDZkMzlkYWNlYTMzNTYwOGI1YTBlNzlkOGUzNDg3OTI4MGUyMzdlMjg1Y2VkNjhiMTNjYmMxNTAxNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+										Signature: "DbhZbny1OXS8Y8c9Ob5PzawkRZfEbu1Z8ok25Qhmu5/SOVoVhVzrm7Uljribm15J3uHaJavurx6fOOTbfGPoPITZEEwI2ob5mAuBFC6h+zc7Ev5hxzYl9z2yx+CrsHzDgRtkmtX/ilMiO5xz0u6n9Ka1mkzKzlDibv9gVe66vw+MD++oddaLdejr9HbTt7/TB/hZWA0WOECiUdTMnEiZHAi+uCEO9aZrOEgUC7SY9PAm3xY7oqK5xBEBhQZyKj604hYe4Zf1XBtLiGXf0s4JeH0Es2aBYTmPwZD0J4ycY3m8iBaRReKK9bsQ2a4s9BqH0ODEbt4edhj355BHuV/aqp83qWUVIZsUkv+RKWiK4YEqKcgPhRugdgIMYRB+zFObogB+yrGN6dZUiFcnv8VbULNQFyDqQQvEaa2GuK+7/mbzpepEPESsZpIMHAGiN37xzU6suMGAjUKZAV+ptdjkGc4dfZfbDrCFRjXYPBfJ5K4v3/EpbtxnUzY2yWoCtWa7Fs/Crda1b8ZDpcyzv7o1XK1A/79+ne0v55kdEChcauRkkmlXpeWoJpRXB/q6nQY3WtB6GU0w1tuKhaMIM3qrsAqT2rhJzjj8jViscwDmAkcsW6vzmFHF0Wa+1zkfrmcuFAdJhaso9HB5AJylOZKCI+Z1EL/e4TSgWCFDTWFNvZQ="
+									}]
+								}
+								Name: "FengChuan"
+							}
+						}
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "5F4C6A9178B3F06B"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-850165389
+									986663641
+									-1133415161
+									1028186304
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3MjA5OTc2Mjk0MCwKICAicHJvZmlsZUlkIiA6ICJjZDUzODE3MzNhY2Y0YWQ5YmM3MTc1MDczZDQ4ZTBjMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0YW5rb2ZwYWNlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mNjE4MjFhNmFhNWJmNTdlODMyNjg3YTZjZDAxNDk2MTI4YjZiM2MwMjg1NDY1Y2IyNjc1NDIzY2YxNjNmYWE5IgogICAgfQogIH0KfQ=="
+										Signature: "YgkwJZgOP6b9hRT0g8R5zHDfWbLak8q/SY6hzdJ/uypOY0z3pCniy10OWuYZ42MmUZXqhePz5Eb2NEvRgyhC3JI+5L0JWzS2vizm4s2Wu6jH2OvDFtIIRL8zTumyGWTD6jmmOBdu5N0FiyLawl5p1NAlx5goesZEWBhVTZJeIiqt77rFlfD9CdIBPqTAVUgTtNyWHLmrN9h4++vGbr9C/rUP0k5GPSNRAugp/E5wA8zflb1zgo/5sP04oPSgOil3ZTEx8WnvGCjSl4ib/C05TvVh3AF4zMrvQz4jndVipwMci+stAsOmfV/5Yr7jZKjfpFNRxXr/+fjRt0KBig5xczq4jJACS37ABmlnQ90l5SJvdzQQDi+PXG+hbocMZKV/3rBuTGlugqWx7gB9oiLtwzCLeywoWEcoIbU9KBz2auEKEFOdN7wbk86VEg4U/kLpVOKdb+mg9mpLtOqJdP9IOt+4P2hW4Kg4aQLBVVOmTITVdzv8IDc5CONnIHPU97cHL5/94hx1nxbdkBQN9bLK+SMcqVDscb8NqzC9sSnPaqniqFSAbk3rsRP34tXgutsVY6z7XkSpofEqoL86dATJRrutufWtm46S2o1FhIGKeRJg8Df4gVTCXREiHVx/0OqdXrpnc3Mrh0keE66xze6L4wgK8vUyI8lDuDg4CB6O6c8="
+									}]
+								}
+								Name: "tankofpacer"
+							}
+						}
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "4A98D32DD87B5A22"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									240245636
+									-1869198243
+									-1538976972
+									296245066
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY3MjA5OTc1NjIyMSwKICAicHJvZmlsZUlkIiA6ICIwZTUxZGI4NDkwOTY0YzVkYTQ0NTEzMzQxMWE4NTc0YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJtdHd0ZnNzXzcxMjYyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YzYzVmM2Q1OWE3NDFjYjI1Mjk4NmVjM2I4ZmYyNjQ4YjU3MDJkYjc2ODFiZWNjMmFmOTk1YWQ5NGYwMzdhNjAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+										Signature: "mTZU4D6tPnqmHtvqmswEEMrDXfUNRTAde2Y7uq18QtDHqcuEc8KZc8IJ9NyBk+ISW/7t+FdNuRsU3Jj6atv6d/AXyxapLH6FrjASdFCH84dxReip/UK9RH4/++kMH54NxTp7k+HiylydfKfgGk944Mlz2YGeKPtMNp0Lj5ASNPbf48XY+mRYlxJu4SjM31eSCtwzHv0hfm3tNgF7jDsm39pVQfguSZo6dzasUeXrWGAh+5n5R57VqLWqFVDOD/QLeCvQ9dTnfOQWVcezSoMnunHx8sf6CV5cEbafCZQK0fNSyWjNn67qzEoju68/ABmgrdoxGifVbMk2kkWuNfEiOcdhUdg/sYGgl1Lo3Aee5LefVRHLGbzOTXabJp5yH3nxK1CjKukmuym00e40NnzOC/SuNJIHXH+XMlIuZj1zNob0nA1X29jiLdlBIKdvHfaKUvIfe5e47ePy1HnRq6rkHpLQWF30PjE/A9/6Bx+KxcRA+WuxqRaqX98RXASZVhpG2LJvEVGZgQOT7UTwyM+a/KhvX7ldJe/xUfumbNqJe9APVUk+TE5akFf1oK0hbJXpqZav+WBafuuHSyVtbZaKJvKiJJt0HLDfdJ7CZL2gtdyzDLpAg7FtHfeGuKG/bhh4guPCvstv9wIXQW84l6NZle1yKFQXPiNEHMvecGomaVk="
+									}]
+								}
+								Name: "mtwtfss_71262"
+							}
+						}
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "我是神必饰品店抽奖机"
@@ -551,11 +851,11 @@
 			}]
 		}
 		{
-			title: "我是阴乐店抽奖机"
+			title: "我是乐器抽奖机"
 			icon: "forestcraft:bass_guitar"
 			x: 1.0d
 			y: 2.5d
-			subtitle: "do re me fa so la ti do~"
+			subtitle: "Bocchi the Block!"
 			dependencies: ["095084FE1689FD86"]
 			repeatable: true
 			id: "50E9956859ECFE7F"
@@ -697,6 +997,7 @@
 			title: "耐心点，每隔两个小时会给你2个抽奖币"
 			x: -6.0d
 			y: 5.5d
+			description: ["不提倡花太多时间在玩整合包上，所以不会有更大的奖励了。"]
 			dependencies: ["095084FE1689FD86"]
 			hide: true
 			repeatable: true
@@ -805,6 +1106,74 @@
 				id: "718C0BE5E29ED95E"
 				type: "random"
 				table_id: 1466836634456039882L
+			}]
+		}
+		{
+			title: "我是护盾之酿抽奖机"
+			icon: {
+				id: "chromaticarsenal:super_glass_shield"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			x: 7.0d
+			y: 4.0d
+			subtitle: "你是否在搜索：暮色巫妖的盾?"
+			description: [
+				"提升最大护盾值，让你免于一死。"
+				"需要先完成“进入下界”任务。"
+			]
+			dependencies: [
+				"095084FE1689FD86"
+				"33F2D31AAB688417"
+			]
+			repeatable: true
+			id: "78B775A5529B3B2D"
+			tasks: [{
+				id: "500E6B03439F49C1"
+				type: "item"
+				item: {
+					id: "kubejs:roll_coin"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5E646B5E4EC585D0"
+				type: "random"
+				table_id: 2168599902148979015L
 			}]
 		}
 	]

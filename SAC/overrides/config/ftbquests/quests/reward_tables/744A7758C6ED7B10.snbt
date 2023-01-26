@@ -198,5 +198,30 @@
 			}
 			count: 2
 		}
+		{
+			title: "大一点的黑沉沉碎片×3"
+			item: {
+				id: "bonfires:large_titanite_shard"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 3
+		}
 	]
 }

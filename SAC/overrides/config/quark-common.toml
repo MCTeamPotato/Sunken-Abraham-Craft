@@ -247,7 +247,7 @@
 		"Satisfying Click" = true
 
 	[management.item_sharing]
-		"Render Items In Chat" = true
+		"Render Items In Chat" = false
 
 [tools]
 	"Endermosh Music Disc" = true

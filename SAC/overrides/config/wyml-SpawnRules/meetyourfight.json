@@ -1,0 +1,31 @@
+{
+	"mod": "meetyourfight",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"bellringer": {
+						// Do not edit this name
+						"name": "bellringer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"dame_fortuna": {
+						// Do not edit this name
+						"name": "dame_fortuna",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"swampjaw": {
+						// Do not edit this name
+						"name": "swampjaw",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

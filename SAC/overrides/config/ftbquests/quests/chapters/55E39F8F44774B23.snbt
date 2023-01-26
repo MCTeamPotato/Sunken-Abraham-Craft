@@ -436,7 +436,11 @@
 			x: -3.5d
 			y: 6.0d
 			subtitle: "努力生存，探索这神秘的区域"
-			description: ["经过一段时间的努力，我终于安顿下来了。这片区域虽跟我原本所在的地方有一定差异，但一些生存法则在这里同样适用。我需要先制作出&l附魔台、铁砧和锻造台&r，以便强化我的装备来应对这片危机四伏的区域。"]
+			description: [
+				"经过一段时间的努力，我终于安顿下来了。这片区域虽跟我原本所在的地方有一定差异，但一些生存法则在这里同样适用。我需要先制作出&l附魔台、铁砧和锻造台&r，以便强化我的装备来应对这片危机四伏的区域。"
+				"可惜我不是专业的附魔师，偶尔会因操作不当而使装备沾染诅咒。虽然诅咒不至于使装备坏掉，但也会让使用带诅咒的装备成为一种折磨。"
+				"要多加小心啊，毕竟我没法去除诅咒附魔。"
+			]
 			dependencies: ["7735330B322D0264"]
 			hide: true
 			id: "5206DEF6B2FD324B"
@@ -561,6 +565,7 @@
 				"下界合金装备是有必要制造的，因为之后我装备的很多升级都需以它为基础，所以我最好先制作出一套强力的下界合金装备。"
 			]
 			dependencies: ["5B54C195E35AA121"]
+			hide: true
 			id: "2382F0978D272FAE"
 			tasks: [{
 				id: "3EBBDF08EFCA2CA3"
@@ -649,6 +654,7 @@
 			subtitle: "不断燃烧着的棍状物，这是烈焰人的骸骨吗？"
 			description: ["有了&6&l烈焰棒&r，我便可以用其中的烈焰之力来驱动炼金，还能用它制造更多的装备与饰品。"]
 			dependencies: ["33F2D31AAB688417"]
+			hide: true
 			id: "7D1E9AA956E02B44"
 			tasks: [{
 				id: "4FACA74503A89767"
@@ -776,6 +782,27 @@
 		}
 		{
 			title: "蜂群思维"
+			icon: {
+				id: "forestcraft:giant_hive"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
 			x: -7.0d
 			y: 15.0d
 			shape: "rsquare"
@@ -789,11 +816,10 @@
 			hide: true
 			id: "4F4734BEABD43140"
 			tasks: [{
-				id: "3B92D7CCADA7371A"
-				type: "kill"
-				icon: "forestcraft:giant_hive"
-				entity: "forestcraft:beequeen"
-				value: 1L
+				id: "056BE13E3DB63E58"
+				type: "advancement"
+				advancement: "forestcraft:forestcraft/beequeen"
+				criterion: ""
 			}]
 			rewards: [{
 				id: "202940451977A8BA"
@@ -896,17 +922,16 @@
 			hide: true
 			id: "7BAF52BB229D7123"
 			tasks: [{
-				id: "3BF61B9B3D86A7C3"
+				id: "6E4237209C59DC4B"
 				type: "item"
-				title: "远程武器"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						RepairCost: 0
 						items: [
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -922,7 +947,6 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -943,7 +967,6 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -964,7 +987,6 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -985,7 +1007,6 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -1001,7 +1022,6 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -1022,28 +1042,6 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
-									"elementalcombat:elemental_defense": {
-										elementalcombat_defense: { }
-									}
-									"elementalcombat:attack_data": {
-										elementalcombat_attack: {
-											"minecraft:base": {
-												style: "projectile"
-												element: "normal"
-											}
-										}
-									}
-								}
-								id: "gunswithoutroses:gold_gun"
-								Count: 1b
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -1064,28 +1062,6 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
-									"elementalcombat:elemental_defense": {
-										elementalcombat_defense: { }
-									}
-									"elementalcombat:attack_data": {
-										elementalcombat_attack: {
-											"minecraft:base": {
-												style: "projectile"
-												element: "normal"
-											}
-										}
-									}
-								}
-								id: "gunswithoutroses:diamond_shotgun"
-								Count: 1b
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -1106,7 +1082,26 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: {
+											"minecraft:base": {
+												style: "projectile"
+												element: "normal"
+											}
+										}
+									}
+								}
+								id: "gunswithoutroses:diamond_shotgun"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								ForgeCaps: {
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -1127,7 +1122,6 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -1148,7 +1142,6 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -1169,49 +1162,6 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
-									"elementalcombat:elemental_defense": {
-										elementalcombat_defense: { }
-									}
-									"elementalcombat:attack_data": {
-										elementalcombat_attack: {
-											"minecraft:base": {
-												style: "projectile"
-												element: "darkness"
-											}
-										}
-									}
-								}
-								id: "forestcraft:demon_buster"
-								Count: 1b
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
-									"elementalcombat:elemental_defense": {
-										elementalcombat_defense: { }
-									}
-									"elementalcombat:attack_data": {
-										elementalcombat_attack: {
-											"minecraft:base": {
-												style: "projectile"
-												element: "darkness"
-											}
-										}
-									}
-								}
-								id: "forestcraft:dark_matter"
-								Count: 1b
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -1232,15 +1182,19 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
 									"elementalcombat:attack_data": {
-										elementalcombat_attack: { }
+										elementalcombat_attack: {
+											"minecraft:base": {
+												style: "projectile"
+												element: "darkness"
+											}
+										}
 									}
 								}
-								id: "forestcraft:royal_staff"
+								id: "forestcraft:demon_buster"
 								Count: 1b
 								tag: {
 									Damage: 0
@@ -1248,7 +1202,26 @@
 							}
 							{
 								ForgeCaps: {
-									"customnpcs:itemscripteddata": { }
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: {
+											"minecraft:base": {
+												style: "projectile"
+												element: "darkness"
+											}
+										}
+									}
+								}
+								id: "forestcraft:dark_matter"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								ForgeCaps: {
 									"elementalcombat:elemental_defense": {
 										elementalcombat_defense: { }
 									}
@@ -1267,13 +1240,105 @@
 									Damage: 0
 								}
 							}
+							{
+								ForgeCaps: {
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: { }
+									}
+								}
+								id: "eidolon:soulfire_wand"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								ForgeCaps: {
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: { }
+									}
+								}
+								id: "eidolon:bonechill_wand"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								ForgeCaps: {
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: { }
+									}
+								}
+								id: "mod_lavacow:war"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								ForgeCaps: {
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: { }
+									}
+								}
+								id: "mod_lavacow:piranhalauncher"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								ForgeCaps: {
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: { }
+									}
+								}
+								id: "mod_lavacow:thorn_shooter"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								ForgeCaps: {
+									"elementalcombat:elemental_defense": {
+										elementalcombat_defense: { }
+									}
+									"elementalcombat:attack_data": {
+										elementalcombat_attack: { }
+									}
+								}
+								id: "mod_lavacow:forsaken_staff"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
 						]
+						display: {
+							Name: "{\"text\":\"远程武器\"}"
+						}
 					}
 					ForgeCaps: {
 						"elementalcombat:elemental_defense": {
 							elementalcombat_defense: { }
 						}
-						"customnpcs:itemscripteddata": { }
 						"elementalcombat:attack_data": {
 							elementalcombat_attack: {
 								"minecraft:base": {
@@ -1302,6 +1367,7 @@
 			description: [
 				"末影人作为狱卒，正到处搜寻着巨龙灵魂的踪迹。用烈焰粉精炼它们身上掉落的末影珍珠，便可制作出指向拥有末地传送门的要塞的&l末影之眼&r。"
 				"前往末地，解放巨龙……"
+				"你也可以试着发挥这颗眼睛中的魔力，例如，让箱子活起来?"
 			]
 			dependencies: ["7D1E9AA956E02B44"]
 			dependency_requirement: "one_completed"
@@ -1325,6 +1391,7 @@
 				"日后，也可以在这里获取更强大的材料……"
 			]
 			dependencies: ["3FB148801B2C62A7"]
+			hide: true
 			id: "353452F9F40C0FD9"
 			tasks: [{
 				id: "577F708A2F5FD14F"
@@ -1362,11 +1429,10 @@
 			hide: true
 			id: "089FDB7027C764A0"
 			tasks: [{
-				id: "26D026B9DC066D0A"
-				type: "kill"
-				icon: "forestcraft:iguana_king_egg"
-				entity: "forestcraft:iguana_king"
-				value: 1L
+				id: "299C4BDF83D494FA"
+				type: "advancement"
+				advancement: "forestcraft:forestcraft/iguana_king"
+				criterion: ""
 			}]
 			rewards: [{
 				id: "132C5F27868BB436"
@@ -1376,8 +1442,8 @@
 		}
 		{
 			title: "心冷若冰"
-			x: 3.5d
-			y: 15.0d
+			x: -3.5d
+			y: 10.0d
 			shape: "pentagon"
 			subtitle: "冰霜之力！"
 			description: [
@@ -1428,43 +1494,6 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -4.5d
-			subtitle: "闪耀、纯粹"
-			description: ["在雷暴时，稀有的雷鸣鸟便会出没。猎杀它们可获得它们那带有雷电魔法的羽毛，将其和钻石以及下界的&c&l宝石疣&r锻造便可制成&e&l电光合金&r。"]
-			dependencies: ["33F2D31AAB688417"]
-			hide: true
-			id: "16B001A82B9DF976"
-			tasks: [{
-				id: "2E689A33E9B61867"
-				type: "item"
-				item: {
-					id: "forestcraft:electrite"
-					Count: 1b
-					ForgeCaps: {
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: {
-								"minecraft:base": {
-									style: "slash"
-									element: "normal"
-								}
-								"minecraft:enchantment": {
-									style: "slash"
-									element: "normal"
-								}
-							}
-						}
-					}
-				}
-			}]
-		}
-		{
 			x: 10.5d
 			y: -4.5d
 			shape: "circle"
@@ -1508,43 +1537,6 @@
 			}]
 		}
 		{
-			title: "高温烹煮"
-			x: -7.0d
-			y: -8.0d
-			shape: "circle"
-			subtitle: "点火，加热！"
-			description: ["利用下界的材料升级你的烹饪锅，享用更高级的料理以及其带来的效果。"]
-			dependencies: ["597796E657A16D0D"]
-			hide: true
-			id: "01F19ECA1B3A8D78"
-			tasks: [{
-				id: "7CF14B4345F1750D"
-				type: "item"
-				item: {
-					id: "crockpot:crock_pot_advanced"
-					Count: 1b
-					ForgeCaps: {
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-						"customnpcs:itemscripteddata": { }
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: {
-								"minecraft:base": {
-									style: "slash"
-									element: "normal"
-								}
-								"minecraft:enchantment": {
-									style: "slash"
-									element: "normal"
-								}
-							}
-						}
-					}
-				}
-			}]
-		}
-		{
 			title: "料理大师的开始"
 			x: -7.0d
 			y: -4.5d
@@ -1583,124 +1575,72 @@
 		}
 		{
 			title: "快端上来吧！"
+			icon: "crockpot:crock_pot_ultimate"
 			x: -10.5d
-			y: -8.0d
+			y: -4.5d
 			shape: "hexagon"
 			subtitle: "糊了……"
-			description: ["借海洋之力升级你的烹饪锅，让它煮的东西倍儿香、倍儿棒。"]
-			dependencies: ["01F19ECA1B3A8D78"]
+			description: [
+				"先用下界的材料升级你的烹饪锅，享用更高级的料理以及其带来的效果。"
+				"然后借海洋之力升级你的烹饪锅，让它煮的东西倍儿香、倍儿棒。"
+			]
+			dependencies: ["597796E657A16D0D"]
+			hide: true
 			id: "7C0EBD82DB247C07"
-			tasks: [{
-				id: "5836715601A6825E"
-				type: "item"
-				item: {
-					id: "crockpot:crock_pot_ultimate"
-					Count: 1b
-					ForgeCaps: {
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-						"customnpcs:itemscripteddata": { }
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: {
-								"minecraft:base": {
-									style: "slash"
-									element: "normal"
-								}
-								"minecraft:enchantment": {
-									style: "slash"
-									element: "normal"
+			tasks: [
+				{
+					id: "744153DCE84419DB"
+					type: "item"
+					item: {
+						id: "crockpot:crock_pot_advanced"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
 								}
 							}
 						}
 					}
 				}
-			}]
+				{
+					id: "3332C9175E0986ED"
+					type: "item"
+					item: {
+						id: "crockpot:crock_pot_ultimate"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "2D85EDBD92A9B26C"
-				type: "random"
-				table_id: 2837347307520816851L
-			}]
-		}
-		{
-			title: "手艺工作"
-			x: -7.0d
-			y: 2.5d
-			subtitle: "你会缝纫吗？"
-			description: [
-				"为了获得背包来提升储存空间，你需要制作缝纫桌。"
-				"当然，在获得背包之前，你也可以试试使用阉割版的潜影盒——板条箱。"
-			]
-			dependencies: ["30C568C5EE8467B0"]
-			id: "3B1E3156B5381FE1"
-			tasks: [{
-				id: "027887BB8D7CCABD"
-				type: "item"
-				item: {
-					id: "improvedbackpacks:sewing_table"
-					Count: 1b
-					ForgeCaps: {
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: {
-								"minecraft:base": {
-									style: "slash"
-									element: "normal"
-								}
-								"minecraft:enchantment": {
-									style: "slash"
-									element: "normal"
-								}
-							}
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "噫！好！我有背包了！"
-			x: -10.5d
-			y: 2.5d
-			subtitle: "储存空间解放ing"
-			description: [
-				"制作出一个背包不是你的终点，而是你的中点。你现在还得收集更多的皮革和线来制作大（2个）、中（3个）、小（3个）3种口袋，以便扩充你的背包的储存空间。"
-				"你也可以试试制造一个便携式的末影箱：末影背包。"
-			]
-			dependencies: ["3B1E3156B5381FE1"]
-			hide: true
-			id: "4FE8FEFD983451B6"
-			tasks: [{
-				id: "5254A2FFCAA823BE"
-				type: "item"
-				title: "任意背包"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "improvedbackpacks:backpack"
-					}
-				}
-			}]
-		}
-		{
-			title: "带着全世界一起旅行！"
-			x: -10.5d
-			y: 6.0d
-			shape: "hexagon"
-			subtitle: "背包 max"
-			description: ["把你的背包储存空间升级满！然后看看你那随身携带的大箱子！"]
-			dependencies: ["4FE8FEFD983451B6"]
-			id: "01F511B196D2CD68"
-			tasks: [{
-				id: "07F5EB1D0DEB33FB"
-				type: "advancement"
-				advancement: "improvedbackpacks:max_upgrade"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "549F7910C9C158AC"
 				type: "random"
 				table_id: 2837347307520816851L
 			}]
@@ -1842,12 +1782,12 @@
 		{
 			title: "磨砺锋刃"
 			icon: "bonfires:titanite_chunk"
-			x: 7.0d
+			x: 3.5d
 			y: -8.0d
 			shape: "hexagon"
 			subtitle: "彻底强化"
 			description: ["算上之前那2个楔形石碎片，这是完全升级一把武器所需要的的升级材料。"]
-			dependencies: ["56E3F2BAE41565D8"]
+			dependencies: ["1AFFD4A7994B202C"]
 			hide: true
 			id: "4E8F16D9F97F31C7"
 			tasks: [
@@ -2023,12 +1963,12 @@
 		}
 		{
 			title: "君临天下"
-			x: -10.5d
+			x: 7.0d
 			y: -4.5d
 			shape: "hexagon"
 			subtitle: "馐肴"
 			description: ["附魔金苹果，是大陆上一种十分珍贵的资源，传说是Notch的赠礼……"]
-			dependencies: ["597796E657A16D0D"]
+			dependencies: ["5B54C195E35AA121"]
 			hide: true
 			id: "74ED881BE40E92C1"
 			tasks: [{
@@ -2090,6 +2030,39 @@
 		}
 		{
 			title: "战争机器"
+			icon: {
+				id: "cataclysm:monstrous_helm"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: {
+							"elementalcombat:base": {
+								style: {
+									explosion: 10
+								}
+								element: {
+									fire: 15
+								}
+							}
+						}
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "hit"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
 			x: 0.0d
 			y: 10.0d
 			shape: "pentagon"
@@ -2103,17 +2076,10 @@
 			hide: true
 			id: "43A6D6FCE77EAB4F"
 			tasks: [{
-				id: "34DECEA3A08ED003"
-				type: "kill"
-				icon: {
-					id: "cataclysm:monstrous_helm"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				entity: "cataclysm:netherite_monstrosity"
-				value: 1L
+				id: "29E0DF3ECD059B11"
+				type: "advancement"
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
 			}]
 			rewards: [
 				{
@@ -2237,22 +2203,14 @@
 			x: 21.0d
 			y: -4.5d
 			subtitle: "战前准备"
-			description: [
-				"用末地的独有材料锻造&3&l末影合金锭&r并升级我的装备吧，这将是暴风雨前最后的宁静。"
-				"之后的路，大多都需要我自己去走了。"
-			]
+			description: ["用末地的独有材料锻造&3&l末影合金锭&r并升级我的装备吧，这将是暴风雨前最后的宁静。"]
 			dependencies: ["353452F9F40C0FD9"]
+			hide: true
 			id: "7E68371F8D874DBE"
 			tasks: [{
 				id: "1D7CE33E916B379F"
 				type: "item"
 				item: "forestcraft:enderite_ingot"
-			}]
-			rewards: [{
-				id: "69264C2AE18FC83A"
-				type: "item"
-				item: "forestcraft:archaic_stone"
-				count: 4
 			}]
 		}
 		{
@@ -2262,7 +2220,7 @@
 			shape: "pentagon"
 			subtitle: "远古者"
 			description: [
-				"寻找恶地或热带草原的古代石塔，在其中将&l昼夜图腾&r放在古代祭坛上，静候片刻，古代魔力将会注入图腾中，古代哨兵将会苏醒，并撕碎任何胆敢侵扰古代魔力的家伙。"
+				"寻找恶地或热带草原的古代石塔，在其中便可获得古代石。用它做成&l昼夜图腾&r，拿在手上长按右键，静候片刻，古代魔力将会注入图腾中，古代哨兵将会苏醒，并撕碎任何胆敢侵扰古代魔力的家伙。"
 				"然而为了用古代的力量与邪恶抗争，我们只能去打扰一下它了。"
 				"注意：此boss有2个形态，白昼形态法抗高，夜晚形态物抗高，半血后会强制切换到夜晚形态。"
 			]
@@ -2270,9 +2228,29 @@
 			hide: true
 			id: "426766E28ED1A06E"
 			tasks: [{
-				id: "3681C6AE93984B5C"
+				id: "5D20E12C0CEFDFEB"
 				type: "kill"
-				icon: "forestcraft:equinox_totem"
+				icon: {
+					id: "forestcraft:equinox_totem"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
 				entity: "forestcraft:archaic_sentinel"
 				value: 1L
 			}]
@@ -2293,7 +2271,7 @@
 			x: 24.5d
 			y: -4.5d
 			shape: "hexagon"
-			subtitle: "&l&2For The Worthy"
+			subtitle: "For The Worthy"
 			description: ["自然之刃，生命之刃……"]
 			dependencies: ["7E68371F8D874DBE"]
 			hide: true
@@ -2334,9 +2312,9 @@
 				}
 			}]
 			rewards: [{
-				id: "78ACCF96C28B22B4"
+				id: "3B79F256D59FBFE8"
 				type: "random"
-				table_id: 2837347307520816851L
+				table_id: 8379641279854508816L
 			}]
 		}
 		{
@@ -2356,9 +2334,41 @@
 			hide: true
 			id: "0E01C35C3C17DE18"
 			tasks: [{
-				id: "696054D5806A5B41"
+				id: "17A9F0A3A413A678"
 				type: "kill"
-				icon: "cataclysm:ignitium_ingot"
+				icon: {
+					id: "cataclysm:ignitium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: {
+								"elementalcombat:base": {
+									style: {
+										slash: 10
+									}
+									element: {
+										fire: 15
+									}
+								}
+							}
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "hit"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
 				entity: "cataclysm:ignis"
 				value: 1L
 			}]
@@ -2402,11 +2412,10 @@
 			hide: true
 			id: "04756B95EFF345DF"
 			tasks: [{
-				id: "31F9A533497B7A78"
-				type: "kill"
-				icon: "cataclysm:gauntlet_of_guard"
-				entity: "cataclysm:ender_guardian"
-				value: 1L
+				id: "00FE44C9ABBD8AE8"
+				type: "advancement"
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
 			}]
 			rewards: [
 				{
@@ -2448,6 +2457,7 @@
 				"04756B95EFF345DF"
 			]
 			hide: true
+			dependency_requirement: "one_completed"
 			size: 1.5d
 			id: "0D636650A5528117"
 			tasks: [{
@@ -2506,6 +2516,7 @@
 				"有人能看到这条光束并带我回去吗？我不确定。"
 			]
 			dependencies: ["7D1E9AA956E02B44"]
+			hide: true
 			id: "0D26EB6EEF5AEFEA"
 			tasks: [{
 				id: "220F87EC4CAAC352"
@@ -2540,6 +2551,7 @@
 				"在这段时间里，你斩妖除魔、逐渐变强的事已被祂完全知晓，现在，祂将会监视着你的一举一动。"
 				"也许，祂将慢慢侵蚀你的神智，让你成为祂的奴仆。"
 				"冒险者，你是要坐以待毙呢，还是奋起反抗，结束祂的统治呢?"
+				"(非最终版)"
 			]
 			dependencies: ["3BAE5A03291F2A3D"]
 			id: "198650ADFA2BAF09"
@@ -2552,7 +2564,7 @@
 		{
 			x: -10.5d
 			y: 12.5d
-			subtitle: "薪火——亚伯拉罕"
+			subtitle: "薪火"
 			description: [
 				"……黑暗时代开始了几个世纪后，在接踵而至的人口、资源、环境等问题的压力下，人类最顶尖的科学院领头重启了这个计划。 但因为技术上的断层，只能勉强启动，所以他们打算利用亚伯拉罕上搭载的重力井在地外行星采集资源进行再研发与突破。"
 				"至于为什么是亚伯拉罕……这是因为那时，大多数舰船早已成了无用的废铁，亚伯拉罕成为了保存最为完好的一艘舰船，但……它仍然是半成品。"
@@ -2564,11 +2576,12 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["30C568C5EE8467B0"]
+			hide: true
 			id: "479578B3F9B185EC"
 			tasks: [{
 				id: "6AD77EA386F696DE"
 				type: "checkmark"
-				title: "亚伯拉罕的陨落"
+				title: "亚伯拉罕"
 			}]
 			rewards: [{
 				id: "2F77A7DB0AD7E9B4"
@@ -2611,7 +2624,7 @@
 		{
 			x: -10.5d
 			y: -1.0d
-			subtitle: "方舟——亚伯拉罕"
+			subtitle: "方舟"
 			description: [
 				"我开始回忆齐了我的故事：好几个世纪以前，人类进入了黄金时代，繁荣的经济、先进的科技、新的储量众多的资源……一切都发展得令人满意。 在那时，人们制造出了一艘艘准备进行在日后进行宇宙移民的城市型巨舰——方舟。"
 				"亚伯拉罕，便是其中的一艘方舟。"
@@ -2622,6 +2635,7 @@
 				"……"
 			]
 			dependencies: ["0E26BA162A395C9B"]
+			hide: true
 			id: "5312F39B96DAA969"
 			tasks: [{
 				id: "51792CDFA9C58C78"
@@ -2658,7 +2672,7 @@
 		{
 			x: -3.5d
 			y: 12.5d
-			subtitle: "结局——亚伯拉罕"
+			subtitle: "终结?"
 			description: [
 				"……刚开始的几次穿梭，一切都很正常，然而，在他们想要再试一试并再次开始穿梭后……意外发生了……"
 				"亚伯拉罕，在穿梭的时候因穿梭设施的不完善被撕开了……"
@@ -2666,9 +2680,10 @@
 				"其上的人是死是活尚不明朗，而上面的许多生物都跑了出去，包括一些强大的存在……"
 			]
 			dependencies: [
+				"479578B3F9B185EC"
 				"089FDB7027C764A0"
-				"09985B5C97C0A89C"
 				"4F4734BEABD43140"
+				"09985B5C97C0A89C"
 			]
 			hide: true
 			dependency_requirement: "one_completed"
@@ -2676,7 +2691,7 @@
 			tasks: [{
 				id: "09A6E13F10DF34CC"
 				type: "checkmark"
-				title: "沉没的亚伯拉罕"
+				title: "亚伯拉罕"
 			}]
 			rewards: [{
 				id: "1F338870C662FE32"
@@ -2713,37 +2728,67 @@
 		}
 		{
 			title: "迎战"
+			icon: {
+				id: "meetyourfight:haunted_bell"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
 			x: -7.0d
 			y: 12.5d
 			shape: "rsquare"
+			subtitle: "这是属于你的战争"
+			description: ["可怕的魔物，不过是这片区域的缩影罢了。真正让人畏惧的，是这些强大的存在，但为了更进一步，我唯一的选择便是打倒它们……"]
 			dependencies: ["479578B3F9B185EC"]
 			id: "09985B5C97C0A89C"
 			tasks: [
 				{
-					id: "667DDEF9B0C550D3"
+					id: "4549769C84F5D881"
 					type: "kill"
 					entity: "meetyourfight:bellringer"
 					value: 1L
 				}
 				{
-					id: "626B412C972EE28B"
+					id: "16191271898FBBAA"
 					type: "kill"
 					entity: "meetyourfight:dame_fortuna"
 					value: 1L
 				}
 				{
-					id: "0E17F8E3ECDC3CB4"
+					id: "419CABC7FFFCA0C1"
 					type: "kill"
 					entity: "meetyourfight:swampjaw"
 					value: 1L
 				}
 			]
+			rewards: [{
+				id: "3F3A36B8C9247410"
+				type: "random"
+				table_id: 2837347307520816851L
+			}]
 		}
 		{
 			x: 21.0d
 			y: 2.5d
 			subtitle: "空灵……"
+			description: ["以太是空灵虚无飘渺之物，但当它凝聚在末地石中时，我们便可以获得物品形式的以太——&l&b以太锭&r了。这可是魔法师们梦寐以求的高级材料。"]
 			dependencies: ["353452F9F40C0FD9"]
+			hide: true
 			id: "3699382E99416111"
 			tasks: [{
 				id: "19F77E6C529EE237"
@@ -2772,16 +2817,15 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -8.0d
+			x: -10.5d
+			y: 6.0d
 			shape: "circle"
-			subtitle: "不需要担心过于昂贵"
+			subtitle: "妈妈再也不用担心过于昂贵！"
 			description: [
-				"你是否遇到过想附魔神级装备却发现“过于昂贵”的问题?虚空之心可以帮你消除这种尴尬的情况，把它在合成栏中与装备合成，便可去除其附魔惩罚。"
-				"同时，大胃怪也可以帮你更好地提升附魔等级哦！"
+				"以前，身边的朋友偶尔会遇到想附魔神级装备却发现“过于昂贵”的问题，而虚空之心可以帮他们消除这种尴尬的情况，把它在合成栏中与装备合成，便可去除其附魔惩罚。"
+				"同时，大胃怪体内对魔法的吞噬能力可以使其变成一个附魔魔咒的容器，依靠此特性，我们可以做出超越附魔上限的装备。"
 			]
-			dependencies: ["1AFFD4A7994B202C"]
-			hide: true
+			dependencies: ["1285DA1D9B30F287"]
 			id: "56E3F2BAE41565D8"
 			tasks: [{
 				id: "4E0B1F564184FC9C"
@@ -2814,7 +2858,9 @@
 			y: 2.5d
 			shape: "hexagon"
 			subtitle: "爷会飞，爷会飞"
+			description: ["运用以太锭的天界魔力结合与飞行有关的物品，我们便可以像神一样自由地飞翔……"]
 			dependencies: ["3699382E99416111"]
+			hide: true
 			id: "390B98599B299A67"
 			tasks: [{
 				id: "271617FE87A954C2"
@@ -2841,19 +2887,31 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7A6ECD1675F11265"
+				type: "random"
+				table_id: 8379641279854508816L
+			}]
 		}
 		{
-			x: 10.5d
-			y: 6.0d
-			subtitle: "稍有磨损，但仍然闪亮"
-			description: ["为了应对高抗性的亡灵生物并增加我所能获得的战利品，&l怪物猎人勋章&r是个很不错的选择。"]
-			dependencies: ["2382F0978D272FAE"]
-			id: "19265C98D7937999"
+			title: "锁"
+			x: -7.0d
+			y: 2.5d
+			subtitle: "做的是大盗，走的是大道"
+			description: [
+				"谁都不喜欢自己的东西被人偷走，因此，锁便出现了。世界上许许多多的宝箱上，都可能出现各种各样的锁，有的锁只是聊胜于无，而有的却在魔咒和材料的加持下十分难强行打开。"
+				"为了打开这些锁，我们需要用到撬锁器。"
+				"依照我的经验，手持撬锁器右击锁以便插入锁芯，通过在其中按W键来试图打开锁销，用A和D键左右移动。"
+				"只有按照一定的顺序才能打开锁销，进而把锁完全打开，否则你的撬锁器便会断裂。"
+				"来自盗贼们的忠告：不同材质的锁需要不同的撬锁器去打开；对于有“电击”附魔的锁，如果打开失败了可是有惩罚的哦……"
+			]
+			dependencies: ["30C568C5EE8467B0"]
+			id: "3273115A84A96999"
 			tasks: [{
-				id: "1E37AEC829530A2E"
+				id: "36E63BA56DBCBD31"
 				type: "item"
 				item: {
-					id: "enigmaticlegacy:monster_charm"
+					id: "locks:wood_lock_pick"
 					Count: 1b
 					ForgeCaps: {
 						"elementalcombat:elemental_defense": {
@@ -2876,23 +2934,73 @@
 			}]
 		}
 		{
-			title: "动物之友"
-			icon: "enigmaticlegacy:hunter_guide"
-			x: 3.5d
+			title: "旅行者背包"
+			icon: {
+				id: "travelersbackpack:standard"
+				Count: 1b
+				tag: { }
+			}
+			x: -10.5d
+			y: 2.5d
+			subtitle: "带着全世界一起旅行"
+			description: ["大家都喜欢背包，这是毋庸置疑的事。而旅行者背包除了是个背包，还能让你睡觉、合成、喷水！也因如此，合成它需要较多的部件。"]
+			dependencies: ["3273115A84A96999"]
+			hide: true
+			id: "7674CAD65EA684F2"
+			tasks: [{
+				id: "4F25B8453BCD7D14"
+				type: "item"
+				title: "任意旅行者背包"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "travelersbackpack:custom_travelers_backpack"
+					}
+				}
+			}]
+		}
+		{
+			title: "秘术入门"
+			icon: {
+				id: "eidolon:codex"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			x: -3.5d
 			y: -4.5d
-			subtitle: "自然主义者"
+			subtitle: "秘术洪流中的吉光片羽的汇总"
 			description: [
-				"跟宠物协同作战时怕达到宠物?Potato魔法出版社出版的这两本书可以完美地避免这种问题，而且还可以更好地保护你的宠物。"
-				"Potato农业频道上卖的狂野生长精华，对于农场主们而言也是不错的肥料。"
+				"世界上有许多研究魔法的人，但在古代知识的缺失之下，大部分人，包括我都没法细究秘术。"
+				"还好，我在方舟上学来的小法术可以创造出一本连接我和大法师们的知识之间的书，以便查阅。"
+				"将铅和铁混合后加热冷却可以构造出灰白的合金——白镴，它对于魔法有着不错的相性，是很好的法术材料。"
+				"而附魔灰烬，是能阻止亡灵生物通过的神圣粉末，对魔法的相容性也不错。要我说，任何人都应该用它围一圈篱笆。"
+				"若要钻研秘术，请仔细阅读秘教仪典。"
 			]
-			dependencies: ["68DBD8FF1A874621"]
-			id: "08FBDDF8F294036C"
+			dependencies: ["30C568C5EE8467B0"]
+			id: "47B7357111759359"
 			tasks: [
 				{
-					id: "7B8C28729B6976FF"
+					id: "46FF078A2691183D"
 					type: "item"
 					item: {
-						id: "enigmaticlegacy:hunter_guide"
+						id: "eidolon:codex"
 						Count: 1b
 						ForgeCaps: {
 							"elementalcombat:elemental_defense": {
@@ -2914,10 +3022,79 @@
 					}
 				}
 				{
-					id: "1EA8DD5D2ABD3A3C"
+					id: "71DFB8B6B987CEBD"
 					type: "item"
 					item: {
-						id: "enigmaticlegacy:animal_guide"
+						id: "eidolon:pewter_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "055EB2AA238E4B21"
+					type: "item"
+					item: {
+						id: "eidolon:enchanted_ash"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			title: "秘术制造业"
+			icon: "eidolon:crucible"
+			x: -3.5d
+			y: -8.0d
+			subtitle: "炼金得上手！"
+			description: [
+				"坩埚，重要的器械，只有学会使用坩埚，才算半只脚踏入了秘术的大门。利用它，我们可以混合普通材料以精炼更加强大的材料。"
+				"然而只有坩埚，是不够的，魔力工作台除了用作正常的工作台，还能通过魔力结合来制造魔法物件。"
+				"利用坩埚的热量和些许魔力，我也可以制作出酿造台的替代品——药剂师酿造台，用真菌新芽充当下界疣，便可直接在主世界开始酿造魔法药水。"
+			]
+			dependencies: ["47B7357111759359"]
+			hide: true
+			id: "149A993B8A3F019C"
+			tasks: [
+				{
+					id: "35A2652461944053"
+					type: "item"
+					item: {
+						id: "eidolon:crucible"
 						Count: 1b
 						ForgeCaps: {
 							"elementalcombat:elemental_defense": {
@@ -2939,10 +3116,10 @@
 					}
 				}
 				{
-					id: "7054C08B4D71B73B"
+					id: "71A7811513CDB3C7"
 					type: "item"
 					item: {
-						id: "enigmaticlegacy:infinimeal"
+						id: "eidolon:worktable"
 						Count: 1b
 						ForgeCaps: {
 							"elementalcombat:elemental_defense": {
@@ -2962,6 +3139,253 @@
 							}
 						}
 					}
+				}
+				{
+					id: "7096E71549F86253"
+					type: "item"
+					item: {
+						id: "eidolon:wooden_brewing_stand"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "秘术附魔业"
+			x: 0.0d
+			y: -8.0d
+			shape: "circle"
+			subtitle: "谨慎使用"
+			description: [
+				"灵歌附魔台可以通过运用秘术的力量强化你的附魔物品上的随机附魔，但正因为秘术的不确定性，它只能一级一级地强化。"
+				"而在这过程中，时刻小心你的装备沾染诅咒……"
+			]
+			dependencies: ["149A993B8A3F019C"]
+			id: "27F7A95687B652E6"
+			tasks: [{
+				id: "08894AA156C4D2DF"
+				type: "item"
+				item: {
+					id: "eidolon:soul_enchanter"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "进阶秘术学"
+			icon: "eidolon:shadow_gem"
+			x: -7.0d
+			y: -8.0d
+			subtitle: "远古洪流"
+			description: ["利用坩埚和别的一些材料，我们便可以做出许多与魔力相性不错的材料，由此，更多的秘术用具也不再遥远。"]
+			dependencies: ["47B7357111759359"]
+			hide: true
+			id: "55491F21426642C7"
+			tasks: [
+				{
+					id: "6E38FEC5D8820330"
+					type: "item"
+					item: {
+						id: "eidolon:arcane_gold_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "672447394053B74A"
+					type: "item"
+					item: {
+						id: "eidolon:lesser_soul_gem"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "3498E224DA7708B2"
+					type: "item"
+					item: {
+						id: "eidolon:shadow_gem"
+						Count: 1b
+						ForgeCaps: {
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										style: "slash"
+										element: "normal"
+									}
+									"minecraft:enchantment": {
+										style: "slash"
+										element: "normal"
+									}
+								}
+							}
+						}
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -8.0d
+			shape: "circle"
+			subtitle: "或许可以做救星"
+			description: ["尽管生命值无法自然恢复，但红润护符可以将有利于身体机能恢复的力量转化为治疗魔法，用平时储存在护符内的治疗能量快速恢复人们的生命值，因此它受到追捧。"]
+			dependencies: ["55491F21426642C7"]
+			id: "403BCEADB125B5FF"
+			tasks: [{
+				id: "4C82AC26DBC83E1E"
+				type: "item"
+				item: {
+					id: "eidolon:sanguine_amulet"
+					Count: 1b
+					ForgeCaps: {
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: {
+								"minecraft:base": {
+									style: "slash"
+									element: "normal"
+								}
+								"minecraft:enchantment": {
+									style: "slash"
+									element: "normal"
+								}
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "粉身碎骨"
+			x: 3.5d
+			y: 15.0d
+			shape: "hexagon"
+			subtitle: "远古之怨……"
+			description: [
+				"在沙漠中偶尔会出现一座沙漠中的墓穴，其中的拟箱蟹便装着一位帝王的王冠(它偶尔也会在名为蛰髑的怪物身上出现)，将其修复后，在沙漠中用它右击骷髅头颅，王冠带上的那一刻，死灵君主骷髅王将会站在你的面前。"
+				"“飘荡的尘土记载着一个古老的故事：从前有一个好战的国王，他发誓要征服所有他踏上的土地。不幸的是，他低估了广袤沙漠的残酷。最后，国王诅咒了这片大地，并与沙漠中的温暖、埋葬和遗忘相长眠。”"
+			]
+			dependencies: ["7C007207FD257C98"]
+			id: "521D7DAEAED1D093"
+			tasks: [{
+				id: "0408A9957F3327E7"
+				type: "advancement"
+				advancement: "mod_lavacow:mod_lavacow/kill_skeletonking"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "51C4F5A5C0198190"
+					type: "loot"
+					table_id: 2837347307520816851L
+				}
+				{
+					id: "5A54DE8F346AEC50"
+					type: "random"
+					table_id: 8379641279854508816L
+				}
+			]
+		}
+		{
+			title: "超越无限！！！"
+			x: 3.5d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "超限者也"
+			dependencies: ["1AFFD4A7994B202C"]
+			hide: true
+			id: "6176371B5675BBAF"
+			tasks: [{
+				id: "7420921163158229"
+				type: "advancement"
+				advancement: "outvoted:overenchant_hunger"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "639A7DB792555405"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7DA6B0DAC623045F"
+					type: "random"
+					table_id: 2837347307520816851L
 				}
 			]
 		}

@@ -30,7 +30,7 @@
 				}
 			}
 			count: 3
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -58,7 +58,7 @@
 				}
 			}
 			count: 4
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -86,7 +86,7 @@
 				}
 			}
 			count: 10
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -114,7 +114,7 @@
 				}
 			}
 			count: 8
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -142,7 +142,7 @@
 				}
 			}
 			count: 6
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -170,7 +170,7 @@
 				}
 			}
 			count: 3
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -198,7 +198,7 @@
 				}
 			}
 			count: 2
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -226,7 +226,7 @@
 				}
 			}
 			count: 8
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -253,6 +253,7 @@
 					}
 				}
 			}
+			weight: 2
 		}
 		{
 			item: {
@@ -280,7 +281,7 @@
 				}
 			}
 			count: 4
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -308,7 +309,7 @@
 				}
 			}
 			count: 6
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -336,7 +337,7 @@
 				}
 			}
 			count: 2
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -363,6 +364,7 @@
 					}
 				}
 			}
+			weight: 2
 		}
 		{
 			item: {
@@ -390,7 +392,7 @@
 				}
 			}
 			count: 2
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -418,7 +420,7 @@
 				}
 			}
 			count: 4
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -446,6 +448,7 @@
 				}
 			}
 			count: 2
+			weight: 2
 		}
 		{
 			item: {
@@ -472,6 +475,7 @@
 					}
 				}
 			}
+			weight: 2
 		}
 		{
 			item: {
@@ -499,7 +503,7 @@
 				}
 			}
 			count: 3
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -545,7 +549,7 @@
 					}
 				}
 			}
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -591,7 +595,7 @@
 					}
 				}
 			}
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -637,7 +641,7 @@
 					}
 				}
 			}
-			weight: 2
+			weight: 4
 		}
 		{
 			item: {
@@ -662,7 +666,7 @@
 				}
 			}
 			count: 2
-			weight: 2
+			weight: 4
 		}
 		{
 			title: "2× 修补混合物"
@@ -679,6 +683,95 @@
 				}
 			}
 			count: 2
+			weight: 2
+		}
+		{
+			item: {
+				id: "bonfires:titanite_shard"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 2
+			weight: 4
+		}
+		{
+			item: {
+				id: "bonfires:large_titanite_shard"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 2
+			weight: 2
+		}
+		{
+			xp: 128
+			type: "xp"
+			weight: 4
+		}
+		{
+			xp: 256
+			type: "xp"
+			weight: 2
+		}
+		{
+			xp: 512
+			type: "xp"
+		}
+		{
+			item: {
+				id: "minecraft:netherite_scrap"
+				Count: 1b
+				ForgeCaps: {
+					"elementalcombat:elemental_defense": {
+						elementalcombat_defense: { }
+					}
+					"elementalcombat:attack_data": {
+						elementalcombat_attack: {
+							"minecraft:base": {
+								style: "slash"
+								element: "normal"
+							}
+							"minecraft:enchantment": {
+								style: "slash"
+								element: "normal"
+							}
+						}
+					}
+				}
+			}
+			count: 3
 		}
 	]
 }

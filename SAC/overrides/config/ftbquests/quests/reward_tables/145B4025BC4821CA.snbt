@@ -302,16 +302,7 @@
 						}
 					]
 					"elementalcombat:attack_data": {
-						elementalcombat_attack: {
-							"minecraft:base": {
-								style: "slash"
-								element: "normal"
-							}
-							"minecraft:enchantment": {
-								style: "slash"
-								element: "normal"
-							}
-						}
+						elementalcombat_attack: { }
 					}
 				}
 			}
@@ -641,16 +632,7 @@
 						}
 					]
 					"elementalcombat:attack_data": {
-						elementalcombat_attack: {
-							"minecraft:base": {
-								style: "slash"
-								element: "normal"
-							}
-							"minecraft:enchantment": {
-								style: "slash"
-								element: "normal"
-							}
-						}
+						elementalcombat_attack: { }
 					}
 				}
 			}
@@ -945,16 +927,7 @@
 						}
 					]
 					"elementalcombat:attack_data": {
-						elementalcombat_attack: {
-							"minecraft:base": {
-								style: "slash"
-								element: "normal"
-							}
-							"minecraft:enchantment": {
-								style: "slash"
-								element: "normal"
-							}
-						}
+						elementalcombat_attack: { }
 					}
 				}
 			}
@@ -1326,16 +1299,7 @@
 						}
 					]
 					"elementalcombat:attack_data": {
-						elementalcombat_attack: {
-							"minecraft:base": {
-								style: "slash"
-								element: "normal"
-							}
-							"minecraft:enchantment": {
-								style: "slash"
-								element: "normal"
-							}
-						}
+						elementalcombat_attack: { }
 					}
 				}
 			}
@@ -1726,16 +1690,7 @@
 						}
 					]
 					"elementalcombat:attack_data": {
-						elementalcombat_attack: {
-							"minecraft:base": {
-								style: "slash"
-								element: "normal"
-							}
-							"minecraft:enchantment": {
-								style: "slash"
-								element: "normal"
-							}
-						}
+						elementalcombat_attack: { }
 					}
 				}
 			}

@@ -1,0 +1,205 @@
+{
+	"mod": "animalbikes",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"ocelotbike": {
+						// Do not edit this name
+						"name": "ocelotbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"cowbike": {
+						// Do not edit this name
+						"name": "cowbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"spiderbike": {
+						// Do not edit this name
+						"name": "spiderbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"slimebike": {
+						// Do not edit this name
+						"name": "slimebike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"sheepbike": {
+						// Do not edit this name
+						"name": "sheepbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dinobike": {
+						// Do not edit this name
+						"name": "dinobike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"witherbike": {
+						// Do not edit this name
+						"name": "witherbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"ponybike": {
+						// Do not edit this name
+						"name": "ponybike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"ironmanbike": {
+						// Do not edit this name
+						"name": "ironmanbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"creeperbike": {
+						// Do not edit this name
+						"name": "creeperbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"batbike": {
+						// Do not edit this name
+						"name": "batbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"reindeerbike": {
+						// Do not edit this name
+						"name": "reindeerbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"chinesedragonbike": {
+						// Do not edit this name
+						"name": "chinesedragonbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"squidbike": {
+						// Do not edit this name
+						"name": "squidbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"chocobobike": {
+						// Do not edit this name
+						"name": "chocobobike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"wolfbike": {
+						// Do not edit this name
+						"name": "wolfbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"ponyflyingbike": {
+						// Do not edit this name
+						"name": "ponyflyingbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dinobike3": {
+						// Do not edit this name
+						"name": "dinobike3",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"endermanbike": {
+						// Do not edit this name
+						"name": "endermanbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dinobike4": {
+						// Do not edit this name
+						"name": "dinobike4",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"chickenbike": {
+						// Do not edit this name
+						"name": "chickenbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"flowerbike": {
+						// Do not edit this name
+						"name": "flowerbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"notchbike": {
+						// Do not edit this name
+						"name": "notchbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"pigbike": {
+						// Do not edit this name
+						"name": "pigbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"ghastbike": {
+						// Do not edit this name
+						"name": "ghastbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dinobike2": {
+						// Do not edit this name
+						"name": "dinobike2",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"bunnybike": {
+						// Do not edit this name
+						"name": "bunnybike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"snowmanbike": {
+						// Do not edit this name
+						"name": "snowmanbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"polarbearbike": {
+						// Do not edit this name
+						"name": "polarbearbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dragonbike": {
+						// Do not edit this name
+						"name": "dragonbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"ocelotbikechild": {
+						// Do not edit this name
+						"name": "ocelotbikechild",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"silverfishbike": {
+						// Do not edit this name
+						"name": "silverfishbike",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			}
+		}
+	}
+}

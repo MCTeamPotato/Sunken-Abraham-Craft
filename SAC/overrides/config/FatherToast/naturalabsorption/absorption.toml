@@ -21,7 +21,7 @@
 	# The amount of time (in ticks) a player must go without taking damage before their absorption begins
 	# to recover (20 ticks = 1 second). If this is set less than 0, players will not naturally recover lost absorption.
 	# <Integer> Range: ≥ -1, Default: 120
-	absorption.recovery.delay = 120
+	absorption.recovery.delay = 140
 	# The amount of absorption regenerated each second while recovering (in half-hearts/second).
 	# <Number> Range: ≥ 0.0, Default: 2.0
 	absorption.recovery.rate = 2.0
@@ -52,18 +52,18 @@
 
 	# The amount of natural absorption a new player starts with.
 	# <Number> Range: ≥ 0.0, Default: 4.0
-	natural_absorption.starting_absorption = 20.0
+	natural_absorption.starting_absorption = 10.0
 	# The maximum natural absorption a player may obtain from upgrades.
 	# Does not include any other sources of max absorption (such as from potions or equipment).
 	# <Number> Range: ≥ 0.0, Default: 20.0
-	natural_absorption.max_absorption = 60.0
+	natural_absorption.max_absorption = 50.0
 
 	# The amount of maximum absorption a player loses with each death. Will not drop below the death penalty limit.
 	# <Number> Range: ≥ 0.0, Default: 2.0
 	natural_absorption.death_penalty = 10.0
 	# A player will not drop below this much max absorption due to death penalty.
 	# <Number> Range: ≥ 0.0, Default: 10.0
-	natural_absorption.death_penalty_limit = 30.0
+	natural_absorption.death_penalty_limit = 25.0
 
 	# The amount of maximum natural absorption gained from each upgrade.
 	# Set this to 0 to disable upgrades.
@@ -82,7 +82,7 @@
 	# The maximum number of levels that can be required to use a Book of Absorption.
 	# Set this to 0 to disable level costs entirely.
 	# <Integer> Range: ≥ 0, Default: 30
-	natural_absorption.level_cost.limit = 30
+	natural_absorption.level_cost.limit = 10
 
 	# The recipe for making a Book of Absorption.
 	#   none     - <no recipe>
