@@ -1,7 +1,0 @@
-{
-    "attack_style":"hit",
-    "attack_element":"fire",
-    "defense_element":{
-            "fire":25
-        }
-}
